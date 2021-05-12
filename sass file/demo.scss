@@ -128,7 +128,7 @@ $white:white;
         border-radius: 2px;
         font-weight: bolder;
         margin-top: 20px;
-        box-shadow: 15px 10px 100px $yellow;
+        box-shadow: 15px 20px 100px $yellow;
         text-decoration: none;
 
        }
@@ -160,6 +160,7 @@ $white:white;
     align-items: center;
     padding: 50px;
     font-family: $font_family;
+    
 
    
 
@@ -176,6 +177,7 @@ $white:white;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 50px;
         
       
     
@@ -192,6 +194,177 @@ $white:white;
 
 // join thousand of club section end
 
+
+
+
+// cover main area start
+
+.___main-area-cover-banner{
+
+    font-family: $font_family;
+    padding: 70px;
+
+    h1{
+        text-align: center;
+    }
+
+    .___main-area{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+        .___team-cover,.___player-cover,.___connect-cover{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .___team-textarea{
+
+                // width: 100%;
+                padding: 45px;
+
+                h2,p{
+                    width:700px;
+                    font-size: 20px;
+                   
+                    
+                }
+            }
+
+            img{
+                width: 300px;
+                height: 200px;
+ 
+            }
+
+            .___middle-img{
+                margin-left: 100px;
+            }
+
+        }
+
+
+    }
+
+
+
+
+}
+// cover main area end 
+
+// review section start
+
+.___review_banner{
+
+    background-image: url("../image file/run\ grayscale.JPG");
+    background-repeat: no-repeat;
+    background-size:100% 550px;
+    height: 550px;
+    font-family: $font_family;
+    
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        color: $white;
+    }
+
+        .___user-review-shape{
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .___review-shape-left, .___review-shape-right{
+
+                width: 500px;
+                height: 300px;
+                background-color: #ffff01bd;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 45px;
+                font-size: large;
+                font-weight: bold;
+
+                img{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    border: 3px solid orange;
+                }
+
+                h2,h3{
+
+                    color: $bg-color;
+                    text-shadow: 2px 5px 20px $bg-color;
+                  
+                    
+                }
+
+                p{
+                    color: $white;
+                    text-align: center;
+                    text-shadow: 2px 5px 20px $bg-color;
+                }
+
+            }
+
+        }
+    
+}
+
+
+
+
+// review section end
+
+
+
+
+// club logo section start
+.___club-logo{
+
+    font-family: $font_family;
+
+    .___club-logo-header{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $bg-color;
+        font-weight: bolder;
+        padding: 40px;
+        
+    }
+    
+    
+    .___club-logo-img{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        
+
+        img{
+            width: 180px;
+            height: 180px;
+            // box-shadow: 15px 20px 100px $yellow;
+            padding: 20px;
+        }
+    }
+
+
+}
+
+
+// club logo section end
 
 
 
@@ -394,7 +567,124 @@ footer{
 
 // media query for join thousand of clubs end 
 
+// media query for cover main area start
 
+@media screen and (max-width:800px){
+
+    .___main-area-cover-banner{
+
+        .___main-area{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+            .___team-cover,.___player-cover,.___connect-cover{
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .___team-textarea{
+
+                    h2,p{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        width: 300px;
+                        text-align: center;
+                        
+                    }
+
+                }
+
+                img{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    width: 200px;
+                    height: 200px;
+                }
+
+                .___middle-img{
+
+                    margin-left: 0%;
+                }
+
+                
+            }
+
+            
+    
+        }
+
+    }
+   
+}
+
+
+
+
+// media query for cover main area end
+
+
+
+
+// media query for review section start
+
+@media screen and (max-width:900px){
+
+    .___review_banner{
+
+    background-size:100% 900px;
+    height: 900px;
+
+        .___user-review-shape{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           
+
+            .___review-shape-left, .___review-shape-right{
+
+                width: 400px;
+                height: 300px;
+
+            }
+        }
+    } 
+}
+
+
+
+// media query for review section end 
+
+
+
+
+// club logo section start
+
+
+@media screen and (max-width:800px){
+
+    .___club-logo-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+
+// club logo section end
 
 //   footer media query start
 
