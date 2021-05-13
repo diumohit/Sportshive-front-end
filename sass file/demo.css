@@ -115,9 +115,18 @@
   border-radius: 2px;
   font-weight: bolder;
   margin-top: 20px;
-  -webkit-box-shadow: 15px 20px 100px yellow;
-          box-shadow: 15px 20px 100px yellow;
+  -webkit-box-shadow: 15px 20px 50px #060808;
+          box-shadow: 15px 20px 50px #060808;
   text-decoration: none;
+}
+
+.___banner .___banner-button .___banner-button-link:hover {
+  background-color: #060808;
+  -webkit-box-shadow: 15px 20px 50px yellow;
+          box-shadow: 15px 20px 50px yellow;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
 }
 
 .___club-container-title {
@@ -130,11 +139,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 15px;
+  padding: 25px;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: "Lato", sans-serif;
-  margin-top: 10px;
+  margin-top: 40px;
+  text-shadow: 5px 10px 20px #060808;
 }
 
 .___club-container {
@@ -178,6 +188,8 @@
 .___club-container .___coaches p, .___club-container .___athletes p, .___club-container .___workouts p {
   color: grey;
   display: block;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .___main-area-cover-banner {
@@ -187,6 +199,7 @@
 
 .___main-area-cover-banner h1 {
   text-align: center;
+  text-shadow: 5px 10px 20px #060808;
 }
 
 .___main-area-cover-banner .___main-area {
@@ -233,6 +246,143 @@
   margin-left: 100px;
 }
 
+.___shape-container-upper {
+  font-family: "Lato", sans-serif;
+  margin-top: 20px;
+}
+
+.___shape-container-upper h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #060808;
+  text-shadow: 5px 10px 20px #060808;
+  padding: 5px;
+}
+
+.___shape-container-upper .___shape-top-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+.___shape-container-upper .___shape-top-button a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.___shape-container-upper .___btn1 {
+  background-color: #060808;
+  padding: 15px;
+  color: white;
+  border: none;
+  -webkit-box-shadow: 5px 10px 20px #060808;
+          box-shadow: 5px 10px 20px #060808;
+  width: 300px;
+  text-align: center;
+}
+
+.___shape-container-upper .___btn2 {
+  background-color: yellow;
+  padding: 15px;
+  color: #060808;
+  border: none;
+  -webkit-box-shadow: 5px 10px 20px #060808;
+          box-shadow: 5px 10px 20px #060808;
+  width: 300px;
+  text-align: center;
+}
+
+.___shape-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-image: url("../image file/shape divider.jpg");
+  background-size: 100% 500px;
+  height: 500px;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+}
+
+.___shape-container .___right-side-text, .___shape-container .___left-side-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 110px;
+}
+
+.___shape-container .___right-side-text h2, .___shape-container .___left-side-text h2 {
+  text-align: left;
+  width: 400px;
+  color: white;
+  text-shadow: 10px 20px 50px black;
+  font-weight: bolder;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.___shape-container .___right-side-text p, .___shape-container .___left-side-text p {
+  text-align: left;
+  width: 400px;
+  color: white;
+  text-shadow: 5px 10px 20px black;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.___shape-container .___right-side-text img, .___shape-container .___left-side-text img {
+  width: 30px;
+  height: 25px;
+  background-color: white;
+  padding: 3px;
+  border-radius: 20%;
+}
+
+.___shape-container .___shape1 {
+  background-color: yellow;
+  height: 550px;
+  right: -25px;
+  -webkit-transform: skew(-20deg);
+          transform: skew(-20deg);
+  width: 100px;
+  color: #fff000;
+  -webkit-box-shadow: 5px 10px 20px black;
+          box-shadow: 5px 10px 20px black;
+}
+
+.___shape-container .___shape2 {
+  background-color: #000;
+  height: 550px;
+  right: -25px;
+  -webkit-transform: skew(-20deg);
+          transform: skew(-20deg);
+  width: 100px;
+  -webkit-box-shadow: 5px 10px 20px grey;
+          box-shadow: 5px 10px 20px grey;
+}
+
 .___review_banner {
   background-image: url("../image file/run grayscale.JPG");
   background-repeat: no-repeat;
@@ -253,6 +403,7 @@
           align-items: center;
   padding: 50px;
   color: white;
+  text-shadow: 5px 10px 20px white;
 }
 
 .___review_banner .___user-review-shape {
@@ -269,7 +420,7 @@
 .___review_banner .___user-review-shape .___review-shape-left, .___review_banner .___user-review-shape .___review-shape-right {
   width: 500px;
   height: 300px;
-  background-color: #ffff01bd;
+  background-color: rgba(255, 255, 0, 0.685);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,6 +474,7 @@
   color: #060808;
   font-weight: bolder;
   padding: 40px;
+  text-shadow: 5px 10px 20px #060808;
 }
 
 .___club-logo .___club-logo-img {
@@ -382,6 +534,15 @@
   border-radius: 2px;
   font-weight: bolder;
   text-decoration: none;
+}
+
+#___trial-banner .___button .___button-trial:hover {
+  background-color: #060808;
+  -webkit-box-shadow: 15px 20px 50px yellow;
+          box-shadow: 15px 20px 50px yellow;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: white;
 }
 
 #___trial-banner .___trial-banner-p {
@@ -528,7 +689,84 @@ footer p {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
+  .___shape-top-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 150px;
+  }
+  .___shape-top-button .___btn1 {
+    margin-bottom: 10px;
+  }
+  .___shape-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #fff000;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 800px;
+  }
+  .___shape-container .___left-side-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: black;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-image: none;
+  }
+  .___shape-container .___right-side-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: yellow;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .___main-area-cover-banner .___main-area {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -603,6 +841,9 @@ footer p {
     background-size: 100% 900px;
     height: 900px;
   }
+  .___review_banner h1 {
+    text-align: center;
+  }
   .___review_banner .___user-review-shape {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -622,9 +863,12 @@ footer p {
     width: 400px;
     height: 300px;
   }
+  .___review_banner .___user-review-shape .___review-shape-left {
+    margin-bottom: 30px;
+  }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .___club-logo-img {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -639,6 +883,12 @@ footer p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #___trial-banner p {
+    text-align: center;
   }
 }
 

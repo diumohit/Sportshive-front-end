@@ -128,11 +128,21 @@ $white:white;
         border-radius: 2px;
         font-weight: bolder;
         margin-top: 20px;
-        box-shadow: 15px 20px 100px $yellow;
+        box-shadow: 15px 20px 50px $bg-color;
         text-decoration: none;
 
        }
+
+       .___banner-button-link:hover{
+        background-color:$bg-color;
+        box-shadow: 15px 20px 50px $yellow;
+        transition: 1s;
+        color: $white;
+           
+       }
    }
+
+   
     
 }
 
@@ -146,11 +156,12 @@ $white:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 25px;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bolder;
     font-family: $font_family;
-    margin-top: 10px;
+    margin-top: 40px;
+    text-shadow: 5px 10px 20px $bg-color;
 
 }
 
@@ -185,6 +196,8 @@ $white:white;
         p{
             color: grey;
             display: block;
+            font-size: 20px;
+            font-weight: bold;
         }
     }
 }
@@ -203,9 +216,11 @@ $white:white;
 
     font-family: $font_family;
     padding: 70px;
+    
 
     h1{
         text-align: center;
+        text-shadow: 5px 10px 20px $bg-color;
     }
 
     .___main-area{
@@ -249,10 +264,173 @@ $white:white;
     }
 
 
+}
+// cover main area end 
+
+// all-in-one solution start
+
+.___shape-container-upper{
+
+    font-family: $font_family;
+    margin-top: 20px;
+
+    h1{
+        text-align: center;
+        font-family: $font_family;
+        color:$bg-color;
+        text-shadow: 5px 10px 20px $bg-color;
+        padding: 5px;
+        
+    }
+
+    .___shape-top-button{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        
+        a{
+            text-decoration: none;
+            font-weight: bold;
+           
+        }
+    }
+
+
+
+    .___btn1{
+
+        background-color:$bg-color ;
+        padding: 15px;
+        color: $white;
+        border: none;
+        box-shadow: 5px 10px 20px $bg-color;
+        width: 300px;
+        text-align: center;
+
+    }
+
+    .___btn2{
+
+        background-color:$yellow ;
+        padding: 15px;
+        color: $bg-color;
+        border: none;
+        box-shadow: 5px 10px 20px $bg-color;
+        width: 300px;
+        text-align: center;
+        
+    }
+
+}
+
+
+
+.___shape-container{
+
+    margin-top:80px ;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../image file/shape\ divider.jpg");
+    background-size: 100% 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    font-family: $font_family;
+
+
+    // .shape {
+    //     background: blue;
+    //     height: 300px;
+    //     position: relative;
+    //     width: 200px;
+    //     color:white;
+    // }
+
+
+
+
+    .___right-side-text,.___left-side-text{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: left;
+        flex-direction:column;
+        padding: 110px;
+       
+
+        
+
+        h2{
+            text-align: left;
+            width: 400px;
+            color:white;
+            text-shadow: 10px 20px 50px black;
+            font-weight: bolder;
+            padding: 5px;
+            font-size: 25px;
+
+        }
+
+        p{
+            text-align: left;
+            width: 400px;
+            color:white;
+            text-shadow: 5px 10px 20px black;
+            font-weight: bolder;
+            padding: 5px;
+
+        }
+
+        img{
+            width: 30px;
+            height: 25px;
+            background-color: $white;
+            padding: 3px;
+            border-radius: 20%;
+       
+        }
+
+    }
+
+
+
+    .___shape1 {
+        // background: blue none repeat scroll 0 0;
+        background-color: yellow;
+        // content: "";
+        height: 550px;
+        // position: absolute;
+        right: -25px;
+        transform: skew(-20deg);
+        width: 100px;
+        color:#fff000;
+        box-shadow: 5px 10px 20px black;
+
+    }
+    .___shape2 {
+        // background: red none repeat scroll 0 0;
+        background-color:#000;
+        // content: "";
+        height: 550px;
+        // position: absolute;
+        right: -25px;
+        transform: skew(-20deg);
+        width: 100px;
+        box-shadow: 5px 10px 20px grey;
+
+    }
 
 
 }
-// cover main area end 
+
+
+
+
+// all-in-one solution end
+
 
 // review section start
 
@@ -271,6 +449,7 @@ $white:white;
         align-items: center;
         padding: 50px;
         color: $white;
+        text-shadow: 5px 10px 20px $white;
     }
 
         .___user-review-shape{
@@ -283,7 +462,7 @@ $white:white;
 
                 width: 500px;
                 height: 300px;
-                background-color: #ffff01bd;
+                background-color: rgba(255, 255, 0, 0.685);
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -340,6 +519,7 @@ $white:white;
         color: $bg-color;
         font-weight: bolder;
         padding: 40px;
+        text-shadow: 5px 10px 20px $bg-color;
         
     }
     
@@ -398,6 +578,15 @@ $white:white;
                 border-radius: 2px;
                 font-weight: bolder;
                 text-decoration: none;
+            }
+
+            .___button-trial:hover{
+
+            background-color:$bg-color;
+            box-shadow: 15px 20px 50px $yellow;
+            transition: 1s;
+            color: $white;
+
             }
 
         }
@@ -567,9 +756,74 @@ footer{
 
 // media query for join thousand of clubs end 
 
+
+// media query for all in one solution start
+
+@media screen and (max-width:900px){
+
+    .___shape-top-button{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 150px;
+
+        .___btn1{
+
+            margin-bottom: 10px;
+
+        }
+        
+    }
+
+    .___shape-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff000;
+        flex-direction: column;
+        height: 800px;
+        
+
+        .___left-side-text{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            flex-direction: column;
+            width: 100%;
+            height: 500px;
+            background-image: none;
+        
+            
+
+        }
+        .___right-side-text{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellow;
+            flex-direction: column;
+            width: 100%;
+            height: 500px;
+            background-image: none;
+            
+        }
+
+    }
+
+
+}
+
+
+// media query for all in one solution end 
+
 // media query for cover main area start
 
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
 
     .___main-area-cover-banner{
 
@@ -644,6 +898,10 @@ footer{
     background-size:100% 900px;
     height: 900px;
 
+    h1{
+        text-align: center;
+    }
+
         .___user-review-shape{
 
             display: flex;
@@ -658,6 +916,12 @@ footer{
                 height: 300px;
 
             }
+
+            .___review-shape-left{
+
+               margin-bottom: 30px;
+
+            }
         }
     } 
 }
@@ -668,11 +932,9 @@ footer{
 
 
 
-
 // club logo section start
 
-
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
 
     .___club-logo-img{
         display: flex;
@@ -685,6 +947,24 @@ footer{
 
 
 // club logo section end
+
+// free trail section start
+
+@media screen and (max-width:600px){
+
+    #___trial-banner{
+
+        p{
+            text-align: center;
+        }
+
+        
+    }
+
+
+}
+
+// free trail section end 
 
 //   footer media query start
 
