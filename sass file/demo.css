@@ -269,11 +269,6 @@
   margin-top: 40px;
 }
 
-.___shape-container-upper .___shape-top-button a {
-  text-decoration: none;
-  font-weight: bold;
-}
-
 .___shape-container-upper .___btn1 {
   background-color: #060808;
   padding: 15px;
@@ -283,6 +278,11 @@
           box-shadow: 5px 10px 20px #060808;
   width: 300px;
   text-align: center;
+  cursor: pointer;
+}
+
+.___shape-container-upper .___btn1:hover {
+  background-color: rgba(0, 0, 0, 0.76);
 }
 
 .___shape-container-upper .___btn2 {
@@ -294,6 +294,11 @@
           box-shadow: 5px 10px 20px #060808;
   width: 300px;
   text-align: center;
+  cursor: pointer;
+}
+
+.___shape-container-upper .___btn2:hover {
+  background-color: rgba(255, 255, 0, 0.561);
 }
 
 .___shape-container {
@@ -314,7 +319,11 @@
   font-family: "Lato", sans-serif;
 }
 
-.___shape-container .___right-side-text, .___shape-container .___left-side-text {
+.___shape-container #div102, .___shape-container #div104 {
+  display: none;
+}
+
+.___shape-container .___right-side-text1, .___shape-container .___left-side-text1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,7 +339,7 @@
   padding: 110px;
 }
 
-.___shape-container .___right-side-text h2, .___shape-container .___left-side-text h2 {
+.___shape-container .___right-side-text1 h2, .___shape-container .___left-side-text1 h2 {
   text-align: left;
   width: 400px;
   color: white;
@@ -340,7 +349,7 @@
   font-size: 25px;
 }
 
-.___shape-container .___right-side-text p, .___shape-container .___left-side-text p {
+.___shape-container .___right-side-text1 p, .___shape-container .___left-side-text1 p {
   text-align: left;
   width: 400px;
   color: white;
@@ -349,12 +358,55 @@
   padding: 5px;
 }
 
-.___shape-container .___right-side-text img, .___shape-container .___left-side-text img {
+.___shape-container .___right-side-text1 img, .___shape-container .___left-side-text1 img {
   width: 30px;
   height: 25px;
   background-color: white;
   padding: 3px;
   border-radius: 20%;
+}
+
+.___shape-container .___right-side-text2, .___shape-container .___left-side-text2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 110px;
+}
+
+.___shape-container .___right-side-text2 h2, .___shape-container .___left-side-text2 h2 {
+  text-align: left;
+  width: 400px;
+  color: white;
+  text-shadow: 10px 20px 50px black;
+  font-weight: bolder;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.___shape-container .___right-side-text2 p, .___shape-container .___left-side-text2 p {
+  text-align: left;
+  width: 400px;
+  color: white;
+  text-shadow: 5px 10px 20px black;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.___shape-container .___right-side-text2 img, .___shape-container .___left-side-text2 img {
+  width: 30px;
+  height: 25px;
+  background-color: yellow;
+  padding: 3px;
+  border-radius: 50%;
 }
 
 .___shape-container .___shape1 {
@@ -720,7 +772,7 @@ footer p {
             flex-direction: column;
     height: 800px;
   }
-  .___shape-container .___left-side-text {
+  .___shape-container .___left-side-text1, .___shape-container .___left-side-text2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -739,7 +791,7 @@ footer p {
     height: 500px;
     background-image: none;
   }
-  .___shape-container .___right-side-text {
+  .___shape-container .___right-side-text1, .___shape-container .___right-side-text2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

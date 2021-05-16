@@ -289,11 +289,11 @@ $orange:orange;
         align-items: center;
         margin-top: 40px;
         
-        a{
-            text-decoration: none;
-            font-weight: bold;
+        // a{
+        //     text-decoration: none;
+        //     font-weight: bold;
            
-        }
+        // }
     }
 
 
@@ -307,7 +307,13 @@ $orange:orange;
         box-shadow: 5px 10px 20px $bg-color;
         width: 300px;
         text-align: center;
+        cursor: pointer;
 
+    }
+
+    .___btn1:hover{
+
+        background-color:rgba(0, 0, 0, 0.76) ;
     }
 
     .___btn2{
@@ -319,7 +325,13 @@ $orange:orange;
         box-shadow: 5px 10px 20px $bg-color;
         width: 300px;
         text-align: center;
+        cursor: pointer;
         
+    }
+
+    .___btn2:hover{
+
+        background-color:rgba(255, 255, 0, 0.561);        
     }
 
 }
@@ -348,16 +360,24 @@ $orange:orange;
     //     color:white;
     // }
 
+    #div102,#div104{
+        display: none;
+    }
+   
+
+   
 
 
 
-    .___right-side-text,.___left-side-text{
+
+    .___right-side-text1,.___left-side-text1{
 
         display: flex;
         justify-content: space-around;
         align-items: left;
         flex-direction:column;
         padding: 110px;
+
        
 
         
@@ -393,6 +413,55 @@ $orange:orange;
         }
 
     }
+
+
+    .___right-side-text2,.___left-side-text2{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: left;
+        flex-direction:column;
+        padding: 110px;
+
+       
+
+        
+
+        h2{
+            text-align: left;
+            width: 400px;
+            color:white;
+            text-shadow: 10px 20px 50px black;
+            font-weight: bolder;
+            padding: 5px;
+            font-size: 25px;
+
+        }
+
+        p{
+            text-align: left;
+            width: 400px;
+            color:white;
+            text-shadow: 5px 10px 20px black;
+            font-weight: bolder;
+            padding: 5px;
+
+        }
+
+        img{
+            width: 30px;
+            height: 25px;
+            background-color: $yellow;
+            padding: 3px;
+            border-radius: 50%;
+       
+        }
+
+    }
+
+
+
+
 
 
 
@@ -783,7 +852,7 @@ footer{
         height: 800px;
         
 
-        .___left-side-text{
+        .___left-side-text1,.___left-side-text2{
 
             display: flex;
             justify-content: center;
@@ -797,7 +866,7 @@ footer{
             
 
         }
-        .___right-side-text{
+        .___right-side-text1,.___right-side-text2{
 
             display: flex;
             justify-content: center;

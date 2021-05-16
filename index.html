@@ -91,15 +91,15 @@
     <h1>ALL-IN-ONE SOLUTION</h1>
 
     <div class="___shape-top-button">
-        <a  Class="___btn1" >MEMBERSHIP MANAGEMENT</a>
-        <a  class="___btn2" >PLAYER DEVELEOPMENT</a>
+        <button type="submit" onclick="show1()" Class="___btn1" >MEMBERSHIP MANAGEMENT</button>
+        <button type="submit" onclick="show2()" class="___btn2" >PLAYER DEVELEOPMENT</button>
     </div>
 
 </div>
 
 <div class="___shape-container">
 
-    <div class="___left-side-text">
+    <div class="___left-side-text1" id="div101">
    
         <h2>
             <img src="./image file/icon/member-card.png" alt=""> 
@@ -118,11 +118,29 @@
             Send SMS / email / notifications</h2>
         <p>Reach your players and parents with custom messages or send app-related notifications: report cards, RSVP requests, invoices, payment reminders, etc.</p>
     
-        <h2>
-            <img src="./image file/icon/report-card.png" alt=""> 
-            Send invoices and track payments</h2>
-        <p>Prepare and send invoices to players within minutes. Track payments by importing your bank statement. Collect 100% of fees by sending additional reminders to debtors.</p>
+    
         
+        
+    </div>
+
+    <div class="___left-side-text2" id="div102">
+   
+        <h2>
+            <img src="./image file/icon/member-card.png" alt=""> 
+            Detailed training planning</h2>
+        <p>Create season plans with cycles and volume projection. Go in depth with daily and weekly planning.
+        </p>
+        
+        <h2>
+            <img src="./image file/icon/calendar.png" alt=""> 
+            Player evaluations and testing</h2>
+        <p>Track anything that is important for your players' age, be it objective, subjective, physical, or non-physical. Get a good overview of entered results.
+        </p>
+      
+        <h2>
+            <img src="./image file/icon/goal.png" alt=""> 
+            Analyze player progress</h2>
+        <p>See where your players excel or why they’re not performing well in other situations. Avoid overtraining and injuries..</p>
         
     </div>
 
@@ -136,30 +154,46 @@
 
     </div>
 
-    <div class="___right-side-text">
+    <div class="___right-side-text1" id="div103">
            
             <h2>
                 <img src="./image file/icon/pencil.png" alt="">    
-                Detailed training planning</h2>
-            <p>Create season plans with cycles and volume projection. Go in depth with daily and weekly planning.</p>
+                Send invoices and track payments</h2>
+            <p>Prepare and send invoices to players within minutes. Track payments by importing your bank statement. Collect 100% of fees by sending additional reminders to debtors.</p>
             
             <h2>
                 <img src="./image file/icon/calendar.png" alt=""> 
-                Player evaluations and testing</h2>
-            <p>Track anything that is important for your players' age, be it objective, subjective, physical, or non-physical. Get a good overview of entered results.</p>
+                Website widgets</h2>
+            <p>Share team information on your website: schedules, membership registration forms, coaches’ bios, etc. Or use our free club profile if you don’t have a club website.</p>
             
             <h2>
                 <img src="./image file/icon/report-card.png" alt=""> 
-                Analyze player progress</h2>
-            <p>See where your players excel or why they’re not performing well in other situations. Avoid overtraining and injuries..</p>
+                Mobile apps for everyone</h2>
+            <p>Coaches, managers, players and parents can find everything related to them in their dedicated mobile apps.</p>
+        
+    </div>   
+
+    <div class="___right-side-text2" id="div104">
+           
+            <h2>
+                <img src="./image file/icon/pencil.png" alt="">    
+                RSVPs and attendance tracking.</h2>
+            <p>See who’s coming, so coaches could prepare matches and sessions better. Track who participated, so managers and parents could have a good overview.</p>
             
             <h2>
-                <img src="./image file/icon/automation.PNG" alt=""> 
-                RSVPs and attendance tracking</h2>
-            <p>See who’s coming, so coaches could prepare matches and sessions better. Track who participated, so managers and parents could have a good overview.</p>
+                <img src="./image file/icon/calendar.png" alt=""> 
+                Send report cards to parents</h2>
+            <p>Educate parents about sports and your club culture while letting them know how their kids are progressing.</p>
+            
+            <h2>
+                <img src="./image file/icon/report-card.png" alt=""> 
+                	Automated training history and advanced training diary</h2>
+            <p>Youth players’ training history is created automatically from schedules and attendance reports. Advanced players can sync their heart rate monitors or manually log and analyze training</p>
+            
     </div>
        
 </div>
+
 
 
     <!-- all-one-solution section end  -->
@@ -336,6 +370,32 @@
         <p>All &copy;Copyright reserved to Sporthive</p>
     </footer>
     <!-- footer end  -->
+
+
+    <!-- Javascript code  -->
+
+
+    <script>
+
+        function show1() {
+
+            document.getElementById('div101').style.display = "block";
+            document.getElementById('div103').style.display = "block";
+            document.getElementById('div102').style.display = "none";
+            document.getElementById('div104').style.display = "none";
+            
+        }
+
+        function show2() {
+
+            document.getElementById('div102').style.display = "block";
+            document.getElementById('div104').style.display = "block";
+            document.getElementById('div101').style.display = "none";
+            document.getElementById('div103').style.display = "none";
+            
+        }
+
+    </script>
 
 </body>
 
