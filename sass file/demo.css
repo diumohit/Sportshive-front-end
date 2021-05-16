@@ -121,12 +121,9 @@
 }
 
 .___banner .___banner-button .___banner-button-link:hover {
-  background-color: #060808;
-  -webkit-box-shadow: 15px 20px 50px yellow;
-          box-shadow: 15px 20px 50px yellow;
+  background-color: orange;
   -webkit-transition: 1s;
   transition: 1s;
-  color: white;
 }
 
 .___club-container-title {
@@ -362,7 +359,7 @@
 
 .___shape-container .___shape1 {
   background-color: yellow;
-  height: 550px;
+  height: 560px;
   right: -25px;
   -webkit-transform: skew(-20deg);
           transform: skew(-20deg);
@@ -374,13 +371,13 @@
 
 .___shape-container .___shape2 {
   background-color: #000;
-  height: 550px;
+  height: 560px;
   right: -25px;
   -webkit-transform: skew(-20deg);
           transform: skew(-20deg);
   width: 100px;
-  -webkit-box-shadow: 5px 10px 20px grey;
-          box-shadow: 5px 10px 20px grey;
+  -webkit-box-shadow: 5px 10px 20px black;
+          box-shadow: 5px 10px 20px black;
 }
 
 .___review_banner {
@@ -537,12 +534,9 @@
 }
 
 #___trial-banner .___button .___button-trial:hover {
-  background-color: #060808;
-  -webkit-box-shadow: 15px 20px 50px yellow;
-          box-shadow: 15px 20px 50px yellow;
+  background-color: orange;
   -webkit-transition: 1s;
   transition: 1s;
-  color: white;
 }
 
 #___trial-banner .___trial-banner-p {

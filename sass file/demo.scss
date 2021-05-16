@@ -11,6 +11,7 @@ $font_size:20px;
 $color:#ffffff;
 $yellow:yellow;
 $white:white;
+$orange:orange;
 
 //  navbar area start 
 .___navbar{
@@ -134,10 +135,8 @@ $white:white;
        }
 
        .___banner-button-link:hover{
-        background-color:$bg-color;
-        box-shadow: 15px 20px 50px $yellow;
+        background-color:$orange;
         transition: 1s;
-        color: $white;
            
        }
    }
@@ -401,7 +400,7 @@ $white:white;
         // background: blue none repeat scroll 0 0;
         background-color: yellow;
         // content: "";
-        height: 550px;
+        height: 560px;
         // position: absolute;
         right: -25px;
         transform: skew(-20deg);
@@ -414,12 +413,12 @@ $white:white;
         // background: red none repeat scroll 0 0;
         background-color:#000;
         // content: "";
-        height: 550px;
+        height: 560px;
         // position: absolute;
         right: -25px;
         transform: skew(-20deg);
         width: 100px;
-        box-shadow: 5px 10px 20px grey;
+        box-shadow: 5px 10px 20px black;
 
     }
 
@@ -582,10 +581,8 @@ $white:white;
 
             .___button-trial:hover{
 
-            background-color:$bg-color;
-            box-shadow: 15px 20px 50px $yellow;
+            background-color:$orange;
             transition: 1s;
-            color: $white;
 
             }
 
