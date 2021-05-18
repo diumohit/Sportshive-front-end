@@ -57,165 +57,32 @@
   color: yellow;
 }
 
-.___price-grow-area {
+.___main-div {
   font-family: "Lato", sans-serif;
-  margin: 40px;
 }
 
-.___price-grow-area h1 {
-  font-family: "Lato", sans-serif;
+.___main-div h1 {
   text-align: center;
-  padding: 20px;
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
-.___price-grow-area .___first-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.___main-div .___contact-div {
   background-color: #060808;
-  color: white;
-}
-
-.___price-grow-area .___first-div .___left-area .___club-size h2 {
-  font-family: "Lato", sans-serif;
-  text-align: center;
-}
-
-.___price-grow-area .___first-div .___left-area .___club-size h2 .___clubsize-dropdown {
-  padding: 5px;
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-}
-
-.___price-grow-area .___first-div .___left-area .___club-size .___free-package-area {
-  margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.___price-grow-area .___first-div .___left-area .___club-size .___free-package-area h3 {
-  text-align: center;
-  padding: 10px;
-}
-
-.___price-grow-area .___first-div .___left-area .___club-size .___free-package-area input {
-  padding: 20px;
-  font-size: 50px;
-  font-style: bold;
-  width: 180px;
-  text-align: center;
-}
-
-.___price-grow-area .___first-div .___left-area .___club-size .___price-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 20px;
-}
-
-.___price-grow-area .___first-div .___left-area .___club-size .___price-button .___price-button-trial {
   color: #060808;
-  background: white;
-  width: auto;
-  height: 20px;
-  padding: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 2px;
-  font-weight: bolder;
-  text-decoration: none;
-}
-
-.___price-grow-area .___first-div .___left-area .___club-size .___price-button .___price-button-trial:hover {
-  background-color: rgba(255, 255, 255, 0.733);
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.___price-grow-area .___first-div .___left-area .___club-size p {
-  margin-top: 20px;
-  padding: 5px;
-  text-align: center;
-  width: 500px;
-}
-
-.___price-grow-area .___first-div .___left-area .___club-size p p {
-  width: 500px;
-  padding: 5px;
-  text-align: center;
-}
-
-.___price-grow-area .___first-div .___right-side-area .___table-div table {
-  border: none;
-  padding: 10px;
-  width: 600px;
-  border-collapse: separate;
-  border-spacing: 0 15px;
-}
-
-.___price-grow-area .___first-div .___right-side-area .___table-div table tr th, .___price-grow-area .___first-div .___right-side-area .___table-div table tr td {
-  text-align: center;
-  padding: 10px;
-  background-color: white;
-  color: #060808;
-}
-
-.___price-grow-area .___first-div .___right-side-area .___table-div table tr .___td1 {
-  text-align: left;
-}
-
-.___price-grow-area .___first-div .___right-side-area .___table-div table i {
-  color: #060808;
-}
-
-.___price-grow-area .___first-div .___right-side-area p {
-  text-align: center;
-  padding: 10px;
-  margin: 20px;
-}
-
-.___sms-pricing-area {
-  font-family: "Lato", sans-serif;
-}
-
-.___sms-pricing-area h1 {
-  text-align: center;
-  padding: 5px;
-  margin: 10px;
-}
-
-.___sms-pricing-area .___sms-pricing-div {
-  background-color: #060808;
-  color: white;
   margin: 40px;
-  padding: 30px;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.___main-div .___contact-div .___left-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,11 +98,77 @@
           flex-direction: column;
 }
 
-.___sms-pricing-area .___sms-pricing-div .___payment {
-  margin-top: 20px;
+.___main-div .___contact-div .___left-section input {
+  padding: 5px;
+  width: 350px;
+  margin: 10px;
 }
 
-.___sms-pricing-area .___sms-pricing-div p {
+.___main-div .___contact-div .___left-section textarea {
+  resize: none;
+  padding: 5px;
+  width: 350px;
+  margin: 10px;
+}
+
+.___main-div .___contact-div .___left-section .___submit-btn {
+  width: 200px;
+}
+
+.___main-div .___contact-div .___right-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Lato", sans-serif;
+}
+
+.___main-div .___contact-div .___right-section h1 {
+  text-align: center;
+  color: yellow;
+  padding: 20px;
+}
+
+.___main-div .___contact-div .___right-section .___getintouch-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.___main-div .___contact-div .___right-section .___getintouch-div .___address-div, .___main-div .___contact-div .___right-section .___getintouch-div .___phone-div, .___main-div .___contact-div .___right-section .___getintouch-div .___mail-div {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+.___main-div .___contact-div .___right-section .___getintouch-div .___address-div .___address-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___address-div .___phone-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___address-div .___email-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___phone-div .___address-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___phone-div .___phone-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___phone-div .___email-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___mail-div .___address-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___mail-div .___phone-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___mail-div .___email-icon {
+  width: 40px;
+  height: 40px;
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
+}
+
+.___main-div .___contact-div .___right-section .___getintouch-div .___address-div p, .___main-div .___contact-div .___right-section .___getintouch-div .___phone-div p, .___main-div .___contact-div .___right-section .___getintouch-div .___mail-div p {
+  text-align: center;
   padding: 5px;
 }
 
@@ -404,8 +337,8 @@ footer p {
   }
 }
 
-@media screen and (max-width: 800px) {
-  .___price-grow-area {
+@media screen and (max-width: 1000px) {
+  .___main-div .___contact-div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -419,27 +352,9 @@ footer p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .___price-grow-area .___first-div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 400px;
     height: auto;
   }
-  .___price-grow-area .___first-div .___left-area .___club-size {
-    width: 400px;
-    padding: 20px;
+  .___main-div .___contact-div .___getintouch-div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -453,72 +368,6 @@ footer p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .___price-grow-area .___first-div .___left-area .___club-size p {
-    width: 300px;
-    text-align: center;
-  }
-  .___price-grow-area .___right-side-area {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .___price-grow-area .___right-side-area .___table-div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .___price-grow-area .___right-side-area .___table-div table {
-    width: 100px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-left: 170px;
-  }
-  .___price-grow-area .___right-side-area .___table-div table tr .___td1 {
-    width: 10px;
-  }
-  .___price-grow-area .___right-side-area .___table-div table tr th, .___price-grow-area .___right-side-area .___table-div table tr td {
-    text-align: center;
-    width: 5px;
-  }
-  .___sms-pricing-div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
   }
 }
 
@@ -551,4 +400,4 @@ footer p {
     margin-left: 40px;
   }
 }
-/*# sourceMappingURL=pricing.css.map */
+/*# sourceMappingURL=contact&support.css.map */
