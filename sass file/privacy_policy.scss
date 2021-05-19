@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Global varibales
+$bg-color:#060808;
+$font_family:'Lato',
+sans-serif;
+$font_size:20px;
+$color:#ffffff;
+$yellow:yellow;
+$white:white;
+$orange:orange;
+
+//  navbar area start 
+.___navbar {
+
+    background-color: $bg-color;
+    color: $color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+    .___logoheader {
+
+        width: 300px;
+        height: 80px;
+        margin-right: 500px;
+
+    }
+
+    .___navlist {
+
+        list-style-type: none;
+        font-size: $font_size;
+        font-family: $font_family;
+
+    }
+
+
+    .___list-item {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: $color;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .___hover:hover {
+
+            background-color: $yellow;
+            border-radius: 20px;
+            color: $bg-color;
+        }
+
+        .___signhover:hover {
+            background-color: $yellow;
+            color: $bg-color;
+
+        }
+
+        .___signup {
+            border: 3px ridge $yellow;
+            color: $yellow;
+        }
+    }
+
+}
+
+//  navbar area end
+
+
+// user category section start
+
+.___privacy_policy_main_area {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // height: 600px;
+    font-family: $font_family;
+    background-color: $bg-color;
+    color: $color;
+    margin: 40px;
+
+
+
+    h1 {
+        padding: 10px;
+        margin: 30px;
+
+
+    }
+
+    p {
+        margin: 30px;
+        padding: 5px;
+
+    }
+
+    ol {
+
+        margin-left: 40px;
+        padding: 10px;
+
+
+        li {
+            padding: 5px;
+        }
+
+
+
+        ul {
+            margin-left: 70px;
+
+        }
+
+
+    }
+
+
+}
+
+
+
+// user category section end 
+
+
+
+// footer area start
+
+footer {
+    color: $white;
+    background-color: $bg-color;
+    font-family: $font_family;
+
+    .___container {
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 50px 0 0 0;
+
+        // align-items:center;
+
+        .___title {
+            color: $yellow;
+        }
+
+
+
+        h2 {
+
+            text-align: center;
+
+            .___logoimage {
+
+                width: 200px;
+                height: 70px;
+            }
+        }
+
+        p {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+
+        ul {
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: $white;
+
+                }
+
+                a:hover {
+
+                    color: $yellow;
+                    font-weight: bolder;
+                }
+
+            }
+        }
+
+
+        .___contact-us {
+            text-align: center;
+            margin-right: 60px;
+
+            .___icon {
+
+                display: inline;
+                align-items: center;
+                justify-content: center;
+                padding: 5px;
+            }
+        }
+
+    }
+
+
+    p {
+        text-align: center;
+        padding-bottom: 30px;
+
+    }
+}
+
+
+
+// footer area end
+
+// --------------------------------------------
+//  media queries for web and mobile screen
+// --------------------------------------------
+
+
+// media query for navbar start
+
+@media screen and (max-width: 1150px) {
+    .___navbar {
+        flex-direction: column;
+        justify-content: center;
+        height: 160px;
+
+    }
+
+    .___logoheader {
+        margin-left: 500px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+//   media query for navbar end 
+
+
+// user category section start
+
+@media screen and (max-width:900px) {
+
+    .___privacy_policy_main_area {
+
+        ol {
+            width: 500px;
+
+
+            li {
+                width: 300px;
+
+                h2 {
+                    text-align: center;
+                }
+
+            }
+
+        }
+
+    }
+
+
+
+}
+
+
+// user category section end
+
+
+
+// free trail section start
+
+@media screen and (max-width:600px) {
+
+    #___trial-banner {
+
+        p {
+            text-align: center;
+        }
+
+
+    }
+
+
+}
+
+// free trail section end 
+
+//   footer media query start
+
+@media screen and (max-width:700px) {
+
+    .___container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .___flex-row,
+        .___contact-us {
+            padding: 20px;
+
+        }
+
+        .___contact-us {
+
+            margin-left: 40px;
+
+        }
+
+    }
+
+
+
+}
+
+
+//   footer media query end

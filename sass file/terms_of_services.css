@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.___navbar {
+  background-color: #060808;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.___navbar .___logoheader {
+  width: 300px;
+  height: 80px;
+  margin-right: 500px;
+}
+
+.___navbar .___navlist {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+.___navbar .___list-item {
+  display: inline-block;
+}
+
+.___navbar .___list-item a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.___navbar .___list-item .___hover:hover {
+  background-color: yellow;
+  border-radius: 20px;
+  color: #060808;
+}
+
+.___navbar .___list-item .___signhover:hover {
+  background-color: yellow;
+  color: #060808;
+}
+
+.___navbar .___list-item .___signup {
+  border: 3px ridge yellow;
+  color: yellow;
+}
+
+.___termofservices_main_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Lato", sans-serif;
+  background-color: #060808;
+  color: #ffffff;
+  margin: 40px;
+}
+
+.___termofservices_main_area h1 {
+  padding: 10px;
+  margin: 30px;
+}
+
+.___termofservices_main_area p {
+  margin: 30px;
+  padding: 5px;
+}
+
+.___termofservices_main_area ol {
+  margin-left: 40px;
+  padding: 10px;
+}
+
+.___termofservices_main_area ol li {
+  padding: 5px;
+}
+
+.___termofservices_main_area ol ul {
+  margin-left: 70px;
+  width: 900px;
+}
+
+footer {
+  color: white;
+  background-color: #060808;
+  font-family: "Lato", sans-serif;
+}
+
+footer .___container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 0 0 0;
+}
+
+footer .___container .___title {
+  color: yellow;
+}
+
+footer .___container h2 {
+  text-align: center;
+}
+
+footer .___container h2 .___logoimage {
+  width: 200px;
+  height: 70px;
+}
+
+footer .___container p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .___container ul li {
+  list-style: none;
+}
+
+footer .___container ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .___container ul li a:hover {
+  color: yellow;
+  font-weight: bolder;
+}
+
+footer .___container .___contact-us {
+  text-align: center;
+  margin-right: 60px;
+}
+
+footer .___container .___contact-us .___icon {
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1150px) {
+  .___navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 160px;
+  }
+  .___logoheader {
+    margin-left: 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  ol {
+    width: 500px;
+  }
+  ol li {
+    width: 300px;
+  }
+  ol li h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #___trial-banner p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .___container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .___container .___flex-row, .___container .___contact-us {
+    padding: 20px;
+  }
+  .___container .___contact-us {
+    margin-left: 40px;
+  }
+}
+/*# sourceMappingURL=terms_of_services.css.map */
