@@ -21,7 +21,6 @@ $orange:orange;
     display: flex;
     justify-content:space-around;
     align-items: center;
-   
   
 
     .___logoheader{
@@ -77,10 +76,10 @@ $orange:orange;
 
 .___banner{
 
-    background-image: url("../images/sportshivebanner.jpg");
+    background-image: url("../images/cover\ image\ fixed\ 2.png");
     background-repeat: no-repeat;
-    background-size: 100% 700px;
-    height: 700px;
+    background-size: 100% 550px;
+    height: 550px;
      
     display: flex;
     justify-content: center;
@@ -162,6 +161,7 @@ $orange:orange;
     margin-top: 40px;
     text-shadow: 5px 10px 20px $bg-color;
 
+   
 }
 
 .___club-container{

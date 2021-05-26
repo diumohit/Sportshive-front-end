@@ -58,10 +58,10 @@
 }
 
 .___banner {
-  background-image: url("../images/sportshivebanner.jpg");
+  background-image: url("../images/cover image fixed 2.png");
   background-repeat: no-repeat;
-  background-size: 100% 700px;
-  height: 700px;
+  background-size: 100% 550px;
+  height: 550px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
