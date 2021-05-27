@@ -230,11 +230,21 @@
           align-items: center;
 }
 
-.___main-area-cover-banner .___main-area .___team-cover .___team-textarea, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea {
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea1, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 {
+  padding: 45px;
+  text-align: right;
+}
+
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 p {
+  width: 700px;
+  font-size: 20px;
+}
+
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 {
   padding: 45px;
 }
 
-.___main-area-cover-banner .___main-area .___team-cover .___team-textarea h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea p {
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 p {
   width: 700px;
   font-size: 20px;
 }

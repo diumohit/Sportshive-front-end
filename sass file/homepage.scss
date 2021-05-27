@@ -246,18 +246,36 @@ $orange:orange;
             justify-content: space-around;
             align-items: center;
 
-            .___team-textarea{
+            .___team-textarea1,.___team-textarea3{
 
                 // width: 100%;
                 padding: 45px;
+                text-align: right;
+                
 
                 h2,p{
                     width:700px;
                     font-size: 20px;
-                   
-                    
+                
+    
                 }
             }
+
+            .___team-textarea2{
+
+                // width: 100%;
+                padding: 45px;
+               
+                
+
+                h2,p{
+                    width:700px;
+                    font-size: 20px;
+                
+    
+                }
+            }
+
 
             img{
                 width: 300px;
