@@ -697,6 +697,10 @@ footer p {
   padding-bottom: 30px;
 }
 
+footer p a {
+  color: yellow;
+}
+
 @media screen and (max-width: 1150px) {
   .___navbar {
     -webkit-box-orient: vertical;

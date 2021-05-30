@@ -83,15 +83,15 @@ $orange:orange;
 
     background-image: url("../images/22.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 700px;
-    height: 700px;
+    background-size: 100% 630px;
+    height: 630px;
 
 
 
     h1{
         padding: 10px 10px 10px 0;
         color: $white;
-        text-shadow: 5px 10px 40px $yellow;
+        text-shadow: 5px 10px 40px $bg-color;
         
     }
 
@@ -104,7 +104,7 @@ $orange:orange;
 
         p{
             text-align: left;
-            text-shadow: 5px 10px 40px $yellow;
+            text-shadow: 5px 10px 40px $bg-color;
             font-size: 18px;
         
 
@@ -112,7 +112,7 @@ $orange:orange;
 
         .___lastword{
             color: $yellow;
-            text-shadow: 5px 10px 40px $white;
+            // text-shadow: 5px 10px 40px $white;
             
 
         }
@@ -210,6 +210,11 @@ footer{
     p{
         text-align: center;
         padding-bottom: 30px;
+
+        a{
+            color: $yellow;
+           
+        }
              
     }    
 }

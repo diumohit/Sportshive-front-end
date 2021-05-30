@@ -68,7 +68,7 @@
 .___mainarea h1 {
   padding: 10px 10px 10px 0;
   color: white;
-  text-shadow: 5px 10px 40px yellow;
+  text-shadow: 5px 10px 40px #060808;
 }
 
 .___mainarea .___about-section {
@@ -80,13 +80,12 @@
 
 .___mainarea .___about-section p {
   text-align: left;
-  text-shadow: 5px 10px 40px yellow;
+  text-shadow: 5px 10px 40px #060808;
   font-size: 18px;
 }
 
 .___mainarea .___about-section .___lastword {
   color: yellow;
-  text-shadow: 5px 10px 40px white;
 }
 
 footer {
@@ -163,6 +162,10 @@ footer .___container .___contact-us .___icon {
 footer p {
   text-align: center;
   padding-bottom: 30px;
+}
+
+footer p a {
+  color: yellow;
 }
 
 @media screen and (max-width: 1150px) {
