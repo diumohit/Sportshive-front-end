@@ -102,7 +102,8 @@ $orange:orange;
                 padding: 3px;
                 h3{
                     font-family: $font_family;
-                    padding: 5px;
+                    padding: 5px 5px 5px 0;
+                    color: $yellow;
                     
                 }
 
@@ -295,6 +296,7 @@ footer{
     color: $white;
     background-color: $bg-color;
     font-family: $font_family;
+    font-size: 15px;
 
     .___container{
         display: flex;
@@ -413,6 +415,25 @@ footer{
 
 
 // media query for main area start
+
+@media screen and (min-width:1400px){
+
+    .___mainarea{
+
+        .___left-side-bar{
+
+                background-color: $bg-color;
+                color: white;
+                padding: 30px;
+                width: 600px;
+                height: 700px;
+        }
+    }
+
+    
+}
+
+
 
 @media screen  and (max-width:1000px){
 

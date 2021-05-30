@@ -427,7 +427,7 @@
 .___shape-container .___shape1 {
   background-color: yellow;
   height: 560px;
-  right: -25px;
+  right: -25%;
   -webkit-transform: skew(-20deg);
           transform: skew(-20deg);
   width: 100px;
@@ -439,7 +439,7 @@
 .___shape-container .___shape2 {
   background-color: #000;
   height: 560px;
-  right: -25px;
+  right: -25%;
   -webkit-transform: skew(-20deg);
           transform: skew(-20deg);
   width: 100px;
@@ -751,6 +751,15 @@ footer p {
   }
 }
 
+@media screen and (min-width: 1400px) {
+  .___shape-container .___shape1 {
+    display: none;
+  }
+  .___shape-container .___shape2 {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .___shape-top-button {
     display: -webkit-box;
@@ -859,7 +868,13 @@ footer p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea p {
+  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 p,
+  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 h2,
+  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 p,
+  .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 h2,
+  .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 p,
+  .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 h2,
+  .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

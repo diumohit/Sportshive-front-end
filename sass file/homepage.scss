@@ -501,7 +501,7 @@ $orange:orange;
         // content: "";
         height: 560px;
         // position: absolute;
-        right: -25px;
+        right: -25%;
         transform: skew(-20deg);
         width: 100px;
         color:#fff000;
@@ -514,7 +514,7 @@ $orange:orange;
         // content: "";
         height: 560px;
         // position: absolute;
-        right: -25px;
+        right: -25%;
         transform: skew(-20deg);
         width: 100px;
         box-shadow: 5px 10px 20px black;
@@ -861,6 +861,26 @@ footer{
 
 // media query for all in one solution start
 
+@media screen and (min-width:1400px) {
+
+    .___shape-container{
+
+        .___shape1{
+            display: none;
+        }
+
+        .___shape2{
+            display: none;
+        }
+
+
+    }
+
+
+    
+}
+
+
 @media screen and (max-width:900px){
 
     .___shape-top-button{
@@ -899,8 +919,6 @@ footer{
             height: 500px;
             background-image: none;
         
-            
-
         }
         .___right-side-text1,.___right-side-text2{
 
@@ -919,6 +937,8 @@ footer{
 
 
 }
+
+
 
 
 // media query for all in one solution end 
@@ -944,7 +964,8 @@ footer{
                 align-items: center;
                 flex-direction: column;
 
-                .___team-textarea{
+                .___team-textarea1,.___team-textarea2,
+                .___team-textarea3{
 
                     h2,p{
                         display: flex;
