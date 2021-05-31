@@ -59,33 +59,33 @@
 
 .___mainarea {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-image: url("../images/22.jpg");
+  background-image: url("../images/about_image/about image1.jpeg");
   background-repeat: no-repeat;
-  background-size: 100% 630px;
-  height: 630px;
+  background-size: 100% 540px;
+  height: 540px;
 }
 
 .___mainarea h1 {
   padding: 10px 10px 10px 0;
   color: white;
-  text-shadow: 5px 10px 40px #060808;
+  text-shadow: 5px 10px 50px blue;
 }
 
 .___mainarea .___about-section {
   color: white;
-  padding: 10px;
-  width: 900px;
-  padding: 70px;
+  width: 820px;
+  padding: 50px;
 }
 
 .___mainarea .___about-section p {
   text-align: left;
-  text-shadow: 5px 10px 40px #060808;
+  text-shadow: 5px 10px 50px blue;
   font-size: 18px;
 }
 
 .___mainarea .___about-section .___lastword {
   color: yellow;
+  text-shadow: 5px 10px 50px blue;
 }
 
 footer {
