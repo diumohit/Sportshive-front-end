@@ -161,7 +161,9 @@
   font-family: "Lato", sans-serif;
 }
 
-.___club-container .___coaches, .___club-container .___athletes, .___club-container .___workouts {
+.___club-container .___coaches,
+.___club-container .___athletes,
+.___club-container .___workouts {
   height: 100px;
   width: 200px;
   background-color: #060808;
@@ -186,7 +188,9 @@
   margin-bottom: 50px;
 }
 
-.___club-container .___coaches p, .___club-container .___athletes p, .___club-container .___workouts p {
+.___club-container .___coaches p,
+.___club-container .___athletes p,
+.___club-container .___workouts p {
   color: grey;
   display: block;
   font-size: 20px;
@@ -219,7 +223,9 @@
           flex-direction: column;
 }
 
-.___main-area-cover-banner .___main-area .___team-cover, .___main-area-cover-banner .___main-area .___player-cover, .___main-area-cover-banner .___main-area .___connect-cover {
+.___main-area-cover-banner .___main-area .___team-cover,
+.___main-area-cover-banner .___main-area .___player-cover,
+.___main-area-cover-banner .___main-area .___connect-cover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,31 +236,58 @@
           align-items: center;
 }
 
-.___main-area-cover-banner .___main-area .___team-cover .___team-textarea1, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 {
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea1,
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea3,
+.___main-area-cover-banner .___main-area .___player-cover .___team-textarea1,
+.___main-area-cover-banner .___main-area .___player-cover .___team-textarea3,
+.___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1,
+.___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 {
   padding: 45px;
   text-align: right;
 }
 
-.___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 p {
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 h2,
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 p,
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 h2,
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 p,
+.___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 h2,
+.___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 p,
+.___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 h2,
+.___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 p,
+.___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 h2,
+.___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 p,
+.___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 h2,
+.___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 p {
   width: 700px;
   font-size: 20px;
 }
 
-.___main-area-cover-banner .___main-area .___team-cover .___team-textarea2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 {
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea2,
+.___main-area-cover-banner .___main-area .___player-cover .___team-textarea2,
+.___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 {
   padding: 45px;
 }
 
-.___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 p {
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 h2,
+.___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 p,
+.___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 h2,
+.___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 p,
+.___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 h2,
+.___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 p {
   width: 700px;
   font-size: 20px;
 }
 
-.___main-area-cover-banner .___main-area .___team-cover img, .___main-area-cover-banner .___main-area .___player-cover img, .___main-area-cover-banner .___main-area .___connect-cover img {
+.___main-area-cover-banner .___main-area .___team-cover img,
+.___main-area-cover-banner .___main-area .___player-cover img,
+.___main-area-cover-banner .___main-area .___connect-cover img {
   width: 300px;
   height: 200px;
 }
 
-.___main-area-cover-banner .___main-area .___team-cover .___middle-img, .___main-area-cover-banner .___main-area .___player-cover .___middle-img, .___main-area-cover-banner .___main-area .___connect-cover .___middle-img {
+.___main-area-cover-banner .___main-area .___team-cover .___middle-img,
+.___main-area-cover-banner .___main-area .___player-cover .___middle-img,
+.___main-area-cover-banner .___main-area .___connect-cover .___middle-img {
   margin-left: 100px;
 }
 
@@ -334,11 +367,13 @@
   font-family: "Lato", sans-serif;
 }
 
-.___shape-container #div102, .___shape-container #div104 {
+.___shape-container #div102,
+.___shape-container #div104 {
   display: none;
 }
 
-.___shape-container .___right-side-text1, .___shape-container .___left-side-text1 {
+.___shape-container .___right-side-text1,
+.___shape-container .___left-side-text1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -354,7 +389,8 @@
   padding: 110px;
 }
 
-.___shape-container .___right-side-text1 h2, .___shape-container .___left-side-text1 h2 {
+.___shape-container .___right-side-text1 h2,
+.___shape-container .___left-side-text1 h2 {
   text-align: left;
   width: 400px;
   color: white;
@@ -364,7 +400,8 @@
   font-size: 25px;
 }
 
-.___shape-container .___right-side-text1 p, .___shape-container .___left-side-text1 p {
+.___shape-container .___right-side-text1 p,
+.___shape-container .___left-side-text1 p {
   text-align: left;
   width: 400px;
   color: white;
@@ -373,7 +410,8 @@
   padding: 5px;
 }
 
-.___shape-container .___right-side-text1 img, .___shape-container .___left-side-text1 img {
+.___shape-container .___right-side-text1 img,
+.___shape-container .___left-side-text1 img {
   width: 30px;
   height: 25px;
   background-color: white;
@@ -381,7 +419,8 @@
   border-radius: 20%;
 }
 
-.___shape-container .___right-side-text2, .___shape-container .___left-side-text2 {
+.___shape-container .___right-side-text2,
+.___shape-container .___left-side-text2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -397,7 +436,8 @@
   padding: 110px;
 }
 
-.___shape-container .___right-side-text2 h2, .___shape-container .___left-side-text2 h2 {
+.___shape-container .___right-side-text2 h2,
+.___shape-container .___left-side-text2 h2 {
   text-align: left;
   width: 400px;
   color: white;
@@ -407,7 +447,8 @@
   font-size: 25px;
 }
 
-.___shape-container .___right-side-text2 p, .___shape-container .___left-side-text2 p {
+.___shape-container .___right-side-text2 p,
+.___shape-container .___left-side-text2 p {
   text-align: left;
   width: 400px;
   color: white;
@@ -416,7 +457,8 @@
   padding: 5px;
 }
 
-.___shape-container .___right-side-text2 img, .___shape-container .___left-side-text2 img {
+.___shape-container .___right-side-text2 img,
+.___shape-container .___left-side-text2 img {
   width: 30px;
   height: 25px;
   background-color: yellow;
@@ -481,7 +523,8 @@
           align-items: center;
 }
 
-.___review_banner .___user-review-shape .___review-shape-left, .___review_banner .___user-review-shape .___review-shape-right {
+.___review_banner .___user-review-shape .___review-shape-left,
+.___review_banner .___user-review-shape .___review-shape-right {
   width: 500px;
   height: 300px;
   background-color: rgba(255, 255, 0, 0.685);
@@ -503,19 +546,24 @@
   font-weight: bold;
 }
 
-.___review_banner .___user-review-shape .___review-shape-left img, .___review_banner .___user-review-shape .___review-shape-right img {
+.___review_banner .___user-review-shape .___review-shape-left img,
+.___review_banner .___user-review-shape .___review-shape-right img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   border: 3px solid orange;
 }
 
-.___review_banner .___user-review-shape .___review-shape-left h2, .___review_banner .___user-review-shape .___review-shape-left h3, .___review_banner .___user-review-shape .___review-shape-right h2, .___review_banner .___user-review-shape .___review-shape-right h3 {
+.___review_banner .___user-review-shape .___review-shape-left h2,
+.___review_banner .___user-review-shape .___review-shape-left h3,
+.___review_banner .___user-review-shape .___review-shape-right h2,
+.___review_banner .___user-review-shape .___review-shape-right h3 {
   color: #060808;
   text-shadow: 2px 5px 20px #060808;
 }
 
-.___review_banner .___user-review-shape .___review-shape-left p, .___review_banner .___user-review-shape .___review-shape-right p {
+.___review_banner .___user-review-shape .___review-shape-left p,
+.___review_banner .___user-review-shape .___review-shape-right p {
   color: white;
   text-align: center;
   text-shadow: 2px 5px 20px #060808;
@@ -711,9 +759,16 @@ footer p a {
         -ms-flex-pack: center;
             justify-content: center;
     height: 160px;
+    font-size: 10px;
   }
-  .___logoheader {
+  .___navbar .___logoheader {
     margin-left: 500px;
+  }
+  .___navbar .___navlist .___signup {
+    border: 3px ridge yellow;
+    color: yellow;
+    margin-right: 15px;
+    margin-bottom: 20px;
   }
 }
 
@@ -732,8 +787,38 @@ footer p a {
 
 @media screen and (max-width: 600px) {
   .___banner {
-    background-size: 100% 700px;
-    height: 700px;
+    background-image: url("../images/sportshivebanner.jpg");
+    background-size: 100% 420px;
+    height: 420px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .___banner .___banner-header1,
+  .___banner .___banner-header2 {
+    font-size: 30px;
+  }
+  .___banner p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .___banner .___banner-button .___banner-button-link {
+    width: 200px;
+    padding: 20px;
+  }
+  .___banner .___no-card-required {
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -779,7 +864,6 @@ footer p a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 150px;
   }
   .___shape-top-button .___btn1 {
     margin-bottom: 10px;
@@ -800,8 +884,13 @@ footer p a {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 800px;
+    background-image: none;
   }
-  .___shape-container .___left-side-text1, .___shape-container .___left-side-text2 {
+  .___shape-container .___shape1, .___shape-container .___shape2 {
+    display: none;
+  }
+  .___shape-container .___left-side-text1,
+  .___shape-container .___left-side-text2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -811,7 +900,7 @@ footer p a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: black;
+    background-color: #060808;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -819,8 +908,10 @@ footer p a {
     width: 100%;
     height: 500px;
     background-image: none;
+    padding: 13px;
   }
-  .___shape-container .___right-side-text1, .___shape-container .___right-side-text2 {
+  .___shape-container .___right-side-text1,
+  .___shape-container .___right-side-text2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -830,7 +921,7 @@ footer p a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: yellow;
+    background-color: #dfdf25;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -838,10 +929,37 @@ footer p a {
     width: 100%;
     height: 500px;
     background-image: none;
+    padding: 13px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .___shape-container .___left-side-text1,
+  .___shape-container .___right-side-text1,
+  .___shape-container .___left-side-text2,
+  .___shape-container .___right-side-text2 {
+    padding: 35px;
+  }
+  .___shape-container .___left-side-text1 h2,
+  .___shape-container .___right-side-text1 h2,
+  .___shape-container .___left-side-text2 h2,
+  .___shape-container .___right-side-text2 h2 {
+    font-size: 20px;
+    width: 300px;
+  }
+  .___shape-container .___left-side-text1 p,
+  .___shape-container .___right-side-text1 p,
+  .___shape-container .___left-side-text2 p,
+  .___shape-container .___right-side-text2 p {
+    font-size: 15px;
+    width: 300px;
   }
 }
 
 @media screen and (max-width: 900px) {
+  .___main-area-cover-banner {
+    padding: 30px;
+  }
   .___main-area-cover-banner .___main-area {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -857,7 +975,9 @@ footer p a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .___main-area-cover-banner .___main-area .___team-cover, .___main-area-cover-banner .___main-area .___player-cover, .___main-area-cover-banner .___main-area .___connect-cover {
+  .___main-area-cover-banner .___main-area .___team-cover,
+  .___main-area-cover-banner .___main-area .___player-cover,
+  .___main-area-cover-banner .___main-area .___connect-cover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -872,11 +992,22 @@ footer p a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 p,
+  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 h2,
+  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea1 p,
+  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 h2,
+  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea2 p,
   .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 h2,
-  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 p,
+  .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3 p,
+  .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 h2,
+  .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1 p,
+  .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 h2,
+  .___main-area-cover-banner .___main-area .___player-cover .___team-textarea2 p,
   .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 h2,
-  .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 p, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 h2, .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 p,
+  .___main-area-cover-banner .___main-area .___player-cover .___team-textarea3 p,
+  .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 h2,
+  .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea1 p,
+  .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 h2,
+  .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea2 p,
   .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 h2,
   .___main-area-cover-banner .___main-area .___connect-cover .___team-textarea3 p {
     display: -webkit-box;
@@ -895,7 +1026,9 @@ footer p a {
     width: 300px;
     text-align: center;
   }
-  .___main-area-cover-banner .___main-area .___team-cover img, .___main-area-cover-banner .___main-area .___player-cover img, .___main-area-cover-banner .___main-area .___connect-cover img {
+  .___main-area-cover-banner .___main-area .___team-cover img,
+  .___main-area-cover-banner .___main-area .___player-cover img,
+  .___main-area-cover-banner .___main-area .___connect-cover img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -912,7 +1045,9 @@ footer p a {
     width: 200px;
     height: 200px;
   }
-  .___main-area-cover-banner .___main-area .___team-cover .___middle-img, .___main-area-cover-banner .___main-area .___player-cover .___middle-img, .___main-area-cover-banner .___main-area .___connect-cover .___middle-img {
+  .___main-area-cover-banner .___main-area .___team-cover .___middle-img,
+  .___main-area-cover-banner .___main-area .___player-cover .___middle-img,
+  .___main-area-cover-banner .___main-area .___connect-cover .___middle-img {
     margin-left: 0%;
   }
 }
@@ -940,7 +1075,8 @@ footer p a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .___review_banner .___user-review-shape .___review-shape-left, .___review_banner .___user-review-shape .___review-shape-right {
+  .___review_banner .___user-review-shape .___review-shape-left,
+  .___review_banner .___user-review-shape .___review-shape-right {
     width: 400px;
     height: 300px;
   }
@@ -970,6 +1106,7 @@ footer p a {
 @media screen and (max-width: 600px) {
   #___trial-banner p {
     text-align: center;
+    font-size: 12px;
   }
 }
 
@@ -989,7 +1126,8 @@ footer p a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .___container .___flex-row, .___container .___contact-us {
+  .___container .___flex-row,
+  .___container .___contact-us {
     padding: 20px;
   }
   .___container .___contact-us {
