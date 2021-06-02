@@ -236,6 +236,12 @@
           align-items: center;
 }
 
+.___main-area-cover-banner .___main-area .___team-cover .___hidden-img,
+.___main-area-cover-banner .___main-area .___player-cover .___hidden-img,
+.___main-area-cover-banner .___main-area .___connect-cover .___hidden-img {
+  display: none;
+}
+
 .___main-area-cover-banner .___main-area .___team-cover .___team-textarea1,
 .___main-area-cover-banner .___main-area .___team-cover .___team-textarea3,
 .___main-area-cover-banner .___main-area .___player-cover .___team-textarea1,
@@ -806,7 +812,8 @@ footer p a {
   }
   .___banner .___banner-header1,
   .___banner .___banner-header2 {
-    font-size: 30px;
+    font-size: 35px;
+    text-align: center;
   }
   .___banner p {
     text-align: center;
@@ -885,6 +892,8 @@ footer p a {
             flex-direction: column;
     height: 800px;
     background-image: none;
+    margin-top: 120px;
+    margin-bottom: 100px;
   }
   .___shape-container .___shape1, .___shape-container .___shape2 {
     display: none;
@@ -908,7 +917,6 @@ footer p a {
     width: 100%;
     height: 500px;
     background-image: none;
-    padding: 13px;
   }
   .___shape-container .___right-side-text1,
   .___shape-container .___right-side-text2 {
@@ -929,11 +937,13 @@ footer p a {
     width: 100%;
     height: 500px;
     background-image: none;
-    padding: 13px;
   }
 }
 
 @media screen and (max-width: 400px) {
+  .___shape-container {
+    margin-top: 80px;
+  }
   .___shape-container .___left-side-text1,
   .___shape-container .___right-side-text1,
   .___shape-container .___left-side-text2,
@@ -1026,6 +1036,16 @@ footer p a {
     width: 300px;
     text-align: center;
   }
+  .___main-area-cover-banner .___main-area .___team-cover .___middle-img,
+  .___main-area-cover-banner .___main-area .___player-cover .___middle-img,
+  .___main-area-cover-banner .___main-area .___connect-cover .___middle-img {
+    display: none;
+  }
+  .___main-area-cover-banner .___main-area .___team-cover .___hidden-img,
+  .___main-area-cover-banner .___main-area .___player-cover .___hidden-img,
+  .___main-area-cover-banner .___main-area .___connect-cover .___hidden-img {
+    display: block;
+  }
   .___main-area-cover-banner .___main-area .___team-cover img,
   .___main-area-cover-banner .___main-area .___player-cover img,
   .___main-area-cover-banner .___main-area .___connect-cover img {
@@ -1044,11 +1064,6 @@ footer p a {
             flex-direction: column;
     width: 200px;
     height: 200px;
-  }
-  .___main-area-cover-banner .___main-area .___team-cover .___middle-img,
-  .___main-area-cover-banner .___main-area .___player-cover .___middle-img,
-  .___main-area-cover-banner .___main-area .___connect-cover .___middle-img {
-    margin-left: 0%;
   }
 }
 
@@ -1104,6 +1119,17 @@ footer p a {
 }
 
 @media screen and (max-width: 600px) {
+  #___trial-banner {
+    background-size: 100% 220px;
+    padding: 60px;
+    margin-bottom: 20px;
+  }
+  #___trial-banner .___button {
+    margin-top: 10px;
+  }
+  #___trial-banner .___button .___button-trial {
+    padding: 15px;
+  }
   #___trial-banner p {
     text-align: center;
     font-size: 12px;

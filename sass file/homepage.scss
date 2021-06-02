@@ -252,6 +252,10 @@ $orange:orange;
             justify-content: space-around;
             align-items: center;
 
+            .___hidden-img{
+               display: none;   
+            }
+
             .___team-textarea1,
             .___team-textarea3 {
 
@@ -894,7 +898,8 @@ footer {
         .___banner-header1,
         .___banner-header2 {
 
-            font-size: 30px;
+            font-size: 35px;
+            text-align: center;
         }
 
         p {
@@ -966,7 +971,6 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        // margin-bottom: 100px;
 
         .___btn1 {
 
@@ -984,6 +988,8 @@ footer {
         flex-direction: column;
         height: 800px;
         background-image: none;
+        margin-top: 120px;
+        margin-bottom: 100px;
 
         .___shape1,.___shape2{
             display: none;
@@ -1004,10 +1010,6 @@ footer {
             height: 500px;
             background-image: none;
    
-            
-
-           
-           
 
         }
 
@@ -1023,10 +1025,7 @@ footer {
             height: 500px;
             background-image: none;
            
-         
-
-          
-      
+        
 
         }
 
@@ -1040,6 +1039,8 @@ footer {
 @media screen and (max-width:400px) {
 
     .___shape-container {
+
+        margin-top: 80px;
 
 
         .___left-side-text1,
@@ -1078,6 +1079,8 @@ footer {
     .___main-area-cover-banner {
 
         padding: 30px;
+       
+        
 
         .___main-area {
 
@@ -1114,6 +1117,17 @@ footer {
 
                 }
 
+                .___middle-img{
+                    display: none;
+                }
+
+                .___hidden-img{
+                    display: block;
+                    
+                }
+
+
+
                 img {
                     display: flex;
                     justify-content: center;
@@ -1123,10 +1137,11 @@ footer {
                     height: 200px;
                 }
 
-                .___middle-img {
+                // .___middle-img {
 
-                    margin-left: 0%;
-                }
+                //     margin-left: 0%;
+                   
+                // }
 
 
             }
@@ -1213,9 +1228,25 @@ footer {
 
     #___trial-banner {
 
+        background-size: 100% 220px;
+        padding: 60px;
+        margin-bottom: 20px;
+
+        .___button{
+            margin-top: 10px;
+
+            .___button-trial{
+                padding: 15px;
+            }
+
+          
+           
+        }
+
         p {
             text-align: center;
             font-size: 12px;
+            
         }
 
 
