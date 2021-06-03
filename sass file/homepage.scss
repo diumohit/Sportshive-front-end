@@ -78,7 +78,7 @@ $orange:orange;
 
 .___banner {
 
-    background-image: url("../images/cover\ image\ fixed\ 2.png");
+    background-image: url("../images/cover\ image\ fixed\ 2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 550px;
     height: 550px;
@@ -252,8 +252,8 @@ $orange:orange;
             justify-content: space-around;
             align-items: center;
 
-            .___hidden-img{
-               display: none;   
+            .___hidden-img {
+                display: none;
             }
 
             .___team-textarea1,
@@ -857,6 +857,18 @@ footer {
 
 }
 
+@media screen and (max-width: 400px) {
+    .___navbar{ 
+      
+    .___navlist{
+
+        font-size: 12px;
+
+    }
+
+  }
+}
+
 
 @media screen and (max-width: 767px) {
     .footer-col {
@@ -899,6 +911,7 @@ footer {
         .___banner-header2 {
 
             font-size: 35px;
+
             text-align: center;
         }
 
@@ -907,13 +920,13 @@ footer {
             font-size: 20px;
         }
 
-        .___banner-button{
+        .___banner-button {
 
-           .___banner-button-link{
-               width: 200px;
-               padding: 20px;
-            
-           }
+            .___banner-button-link {
+                width: 200px;
+                padding: 20px;
+
+            }
         }
 
         .___no-card-required {
@@ -991,7 +1004,8 @@ footer {
         margin-top: 120px;
         margin-bottom: 100px;
 
-        .___shape1,.___shape2{
+        .___shape1,
+        .___shape2 {
             display: none;
         }
 
@@ -1009,7 +1023,7 @@ footer {
             width: 100%;
             height: 500px;
             background-image: none;
-   
+
 
         }
 
@@ -1024,8 +1038,8 @@ footer {
             width: 100%;
             height: 500px;
             background-image: none;
-           
-        
+
+
 
         }
 
@@ -1079,8 +1093,8 @@ footer {
     .___main-area-cover-banner {
 
         padding: 30px;
-       
-        
+
+
 
         .___main-area {
 
@@ -1088,7 +1102,7 @@ footer {
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            
+
 
 
             .___team-cover,
@@ -1117,13 +1131,13 @@ footer {
 
                 }
 
-                .___middle-img{
+                .___middle-img {
                     display: none;
                 }
 
-                .___hidden-img{
+                .___hidden-img {
                     display: block;
-                    
+
                 }
 
 
@@ -1140,7 +1154,7 @@ footer {
                 // .___middle-img {
 
                 //     margin-left: 0%;
-                   
+
                 // }
 
 
@@ -1232,21 +1246,21 @@ footer {
         padding: 60px;
         margin-bottom: 20px;
 
-        .___button{
+        .___button {
             margin-top: 10px;
 
-            .___button-trial{
+            .___button-trial {
                 padding: 15px;
             }
 
-          
-           
+
+
         }
 
         p {
             text-align: center;
             font-size: 12px;
-            
+
         }
 
 

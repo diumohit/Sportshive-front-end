@@ -197,6 +197,12 @@ footer p a {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .___navbar .___navlist {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-col {
     width: 50%;
@@ -222,6 +228,29 @@ footer p a {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .___termofservices_main_area {
+    width: 250px;
+    font-size: 10px;
+  }
+  .___termofservices_main_area ol, .___termofservices_main_area li {
+    font-size: 10px;
+    width: 120px;
+    margin-right: 200px;
+  }
+  .___termofservices_main_area ol h2, .___termofservices_main_area li h2 {
+    margin-left: 20px;
+  }
+  .___termofservices_main_area ol p, .___termofservices_main_area li p {
+    width: 200px;
+  }
+  .___termofservices_main_area ul, .___termofservices_main_area li {
+    font-size: 10px;
+    width: 100px;
+    margin-right: 200px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   #___trial-banner p {
     text-align: center;
@@ -244,7 +273,8 @@ footer p a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .___container .___flex-row, .___container .___contact-us {
+  .___container .___flex-row,
+  .___container .___contact-us {
     padding: 20px;
   }
   .___container .___contact-us {

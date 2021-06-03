@@ -329,6 +329,12 @@ footer p a {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .___navbar .___navlist {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-col {
     width: 50%;
@@ -427,9 +433,63 @@ footer p a {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .___mainarea .___left-side-bar {
+    width: 100px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+  .___mainarea .___img-view-area h1 {
+    width: 180px;
+    font-size: 20px;
+  }
+  .___mainarea .___img-view-area .___img-collection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .___mainarea .___img-view-area .___img-collection img {
+    height: 50px;
+    width: 50px;
+  }
+  .___mainarea .___text-area-section h2, .___mainarea .___text-area-section p, .___mainarea .___text-area-section h3 {
+    font-size: 15px;
+    width: 220px;
+  }
+  .___mainarea .___text-area-section .___qoute-section {
+    font-size: 0px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  #___trial-banner {
+    background-size: 100% 220px;
+    padding: 60px;
+    margin-bottom: 20px;
+  }
+  #___trial-banner .___button {
+    margin-top: 10px;
+  }
+  #___trial-banner .___button .___button-trial {
+    padding: 15px;
+  }
   #___trial-banner p {
     text-align: center;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .___need-help {
+    font-size: 10px;
+    margin-bottom: 50px;
   }
 }
 
@@ -449,7 +509,8 @@ footer p a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .___container .___flex-row, .___container .___contact-us {
+  .___container .___flex-row,
+  .___container .___contact-us {
     padding: 20px;
   }
   .___container .___contact-us {

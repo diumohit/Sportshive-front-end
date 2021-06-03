@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,8 @@
 
 // Global varibales
 $bg-color:#060808;
-$font_family:'Lato', sans-serif;
+$font_family:'Lato',
+sans-serif;
 $font_size:20px;
 $color:#ffffff;
 $yellow:yellow;
@@ -14,81 +15,82 @@ $white:white;
 $orange:orange;
 
 //  navbar area start 
-.___navbar{
+.___navbar {
 
     background-color: $bg-color;
-    color:$color;
+    color: $color;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-   
-  
 
-    .___logoheader{
 
-      width: 300px;
-      height: 80px;
-      margin-right: 500px;
-      
+
+    .___logoheader {
+
+        width: 300px;
+        height: 80px;
+        margin-right: 500px;
+
     }
 
-    .___navlist{
+    .___navlist {
 
         list-style-type: none;
         font-size: $font_size;
-        font-family:$font_family;
-        
+        font-family: $font_family;
+
     }
 
 
-    .___list-item{
+    .___list-item {
         display: inline-block;
 
-        a{
+        a {
             text-decoration: none;
             color: $color;
             padding: 10px;
             font-weight: bold;
         }
 
-        .___hover:hover{
+        .___hover:hover {
 
-            background-color:$yellow;
+            background-color: $yellow;
             border-radius: 20px;
-            color:$bg-color;
-        }
-
-        .___signhover:hover{
-            background-color:$yellow;
             color: $bg-color;
-            
         }
 
-        .___signup{
+        .___signhover:hover {
+            background-color: $yellow;
+            color: $bg-color;
+
+        }
+
+        .___signup {
             border: 3px ridge $yellow;
             color: $yellow;
         }
     }
-        
+
 }
+
 //  navbar area end
 
 
 // price grow area start
 
-.___price-grow-area{
+.___price-grow-area {
 
     font-family: $font_family;
     margin: 40px;
 
-    h1{
+    h1 {
         font-family: $font_family;
         text-align: center;
         padding: 20px;
         margin-bottom: 40px;
     }
 
-    .___first-div{
+    .___first-div {
 
         display: flex;
         justify-content: space-around;
@@ -96,15 +98,15 @@ $orange:orange;
         background-color: $bg-color;
         color: $white;
 
-        .___left-area{
+        .___left-area {
 
-            .___club-size{
+            .___club-size {
 
-                h2{
+                h2 {
                     font-family: $font_family;
                     text-align: center;
 
-                    .___clubsize-dropdown{
+                    .___clubsize-dropdown {
                         padding: 5px;
                         font-family: $font_family;
                         font-weight: bold;
@@ -113,38 +115,38 @@ $orange:orange;
                     }
                 }
 
-                .___free-package-area{
+                .___free-package-area {
 
                     margin-top: 50px;
                     display: flex;
                     justify-content: space-around;
                     align-items: center;
 
-                    h3{
+                    h3 {
                         text-align: center;
                         padding: 10px;
                     }
 
-                    input{
+                    input {
                         padding: 20px;
                         font-size: 50px;
                         font-style: bold;
                         width: 180px;
                         text-align: center;
-                    
+
                     }
-                    
+
                 }
 
 
-                .___price-button{
+                .___price-button {
 
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     margin-top: 20px;
-        
-                    .___price-button-trial{         
+
+                    .___price-button-trial {
                         color: $bg-color;
                         background: $white;
                         width: auto;
@@ -157,23 +159,23 @@ $orange:orange;
                         font-weight: bolder;
                         text-decoration: none;
                     }
-        
-                    .___price-button-trial:hover{
-        
-                    background-color:rgba(255, 255, 255, 0.733);
-                    transition: 1s;
-        
+
+                    .___price-button-trial:hover {
+
+                        background-color: rgba(255, 255, 255, 0.733);
+                        transition: 1s;
+
                     }
-        
+
                 }
 
-                p{
+                p {
                     margin-top: 20px;
                     padding: 5px;
                     text-align: center;
                     width: 500px;
-                    
-                    p{
+
+                    p {
                         width: 500px;
                         padding: 5px;
                         text-align: center;
@@ -185,49 +187,50 @@ $orange:orange;
             }
         }
 
-        
 
-        .___right-side-area{
 
-            .___table-div{
+        .___right-side-area {
 
-                table{
+            .___table-div {
+
+                table {
 
                     border: none;
                     padding: 10px;
                     width: 600px;
-                    border-collapse:separate;
+                    border-collapse: separate;
                     border-spacing: 0 15px;
-                    
-
-                    tr{
 
 
-                        th,td{
+                    tr {
+
+
+                        th,
+                        td {
                             text-align: center;
                             padding: 10px;
                             background-color: $white;
                             color: $bg-color;
 
-                            
-                        } 
-                        
-                        .___td1{
+
+                        }
+
+                        .___td1 {
                             text-align: left;
                         }
 
                     }
 
-                    
-                   
 
-                    i{
+
+
+                    i {
                         color: $bg-color;
                     }
                 }
             }
 
-            p{
+            p {
                 text-align: center;
                 padding: 10px;
                 margin: 20px;
@@ -247,17 +250,17 @@ $orange:orange;
 
 // sms pricing section start
 
-.___sms-pricing-area{
-    
+.___sms-pricing-area {
+
     font-family: $font_family;
 
-    h1{
+    h1 {
         text-align: center;
         padding: 5px;
         margin: 10px;
     }
 
-    .___sms-pricing-div{
+    .___sms-pricing-div {
 
         background-color: $bg-color;
         color: $white;
@@ -269,12 +272,12 @@ $orange:orange;
         align-items: center;
         flex-direction: column;
 
-        .___payment{
+        .___payment {
 
             margin-top: 20px;
         }
 
-        p{
+        p {
             padding: 5px;
         }
 
@@ -284,6 +287,7 @@ $orange:orange;
 
 
 }
+
 // sms pricing section end 
 
 
@@ -292,54 +296,54 @@ $orange:orange;
 
 
 
-    #___trial-banner{
+#___trial-banner {
 
-        background-image: url("../images/black-friday.jpg");
-        background-repeat: no-repeat;
-        background-size:100% 300px;
-        padding: 100px;
-        font-family: $font_family;
+    background-image: url("../images/black-friday.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    padding: 100px;
+    font-family: $font_family;
 
-        .___button{
+    .___button {
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .___button-trial {
+            color: $bg-color;
+            background: $yellow;
+            width: auto;
+            height: 20px;
+            padding: 25px;
             display: flex;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+            border-radius: 2px;
+            font-weight: bolder;
+            text-decoration: none;
+        }
 
-            .___button-trial{         
-                color: $bg-color;
-                background: $yellow;
-                width: auto;
-                height: 20px;
-                padding: 25px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 2px;
-                font-weight: bolder;
-                text-decoration: none;
-            }
+        .___button-trial:hover {
 
-            .___button-trial:hover{
-
-            background-color:$orange;
+            background-color: $orange;
             transition: 1s;
-
-            }
 
         }
 
-        .___trial-banner-p{
-        
-            color: $white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 15px;
-            font-size: larger;
-    
-        }        
     }
+
+    .___trial-banner-p {
+
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        font-size: larger;
+
+    }
+}
 
 
 // Free trial area end
@@ -348,13 +352,13 @@ $orange:orange;
 
 // footer area start
 
-footer{
+footer {
     color: $white;
     background-color: $bg-color;
     font-family: $font_family;
     font-size: 15px;
 
-    .___container{
+    .___container {
         display: flex;
         // flex-wrap: wrap;
         justify-content: space-around;
@@ -362,80 +366,81 @@ footer{
 
         // align-items:center;
 
-        .___title{
-            color:$yellow;
+        .___title {
+            color: $yellow;
         }
 
-      
 
-        h2{
+
+        h2 {
 
             text-align: center;
 
-            .___logoimage{
-             
+            .___logoimage {
+
                 width: 200px;
                 height: 70px;
             }
         }
 
-        p{
-            
+        p {
+
             display: flex;
             justify-content: center;
             align-items: center;
-          
+
         }
 
 
 
-       ul{
-           li{
-               list-style: none;
+        ul {
+            li {
+                list-style: none;
 
-               a{
-                   text-decoration: none;
-                   color: $white;
-                   
-               }
+                a {
+                    text-decoration: none;
+                    color: $white;
 
-               a:hover{
+                }
 
-                color:$yellow;
-                font-weight: bolder;
-               }
+                a:hover {
 
-           }
-       }
+                    color: $yellow;
+                    font-weight: bolder;
+                }
 
-
-    .___contact-us{
-        text-align: center;
-        margin-right: 60px;
-
-        .___icon{
-            
-            display: inline;
-            align-items: center;
-            justify-content: center;
-            padding: 5px;
+            }
         }
-    }
+
+
+        .___contact-us {
+            text-align: center;
+            margin-right: 60px;
+
+            .___icon {
+
+                display: inline;
+                align-items: center;
+                justify-content: center;
+                padding: 5px;
+            }
+        }
 
     }
 
 
-    p{
+    p {
         text-align: center;
         padding-bottom: 30px;
 
-        a{
+        a {
             color: $yellow;
-           
+
         }
-             
-    }    
+
+    }
 }
+
 // footer area end
 
 // --------------------------------------------
@@ -446,48 +451,61 @@ footer{
 // media query for navbar start
 
 @media screen and (max-width: 1150px) {
-    .___navbar{ 
-      flex-direction: column;
-      justify-content: center;
-      height: 160px;
-      
-    } 
+    .___navbar {
+        flex-direction: column;
+        justify-content: center;
+        height: 160px;
 
-    .___logoheader{
+    }
+
+    .___logoheader {
         margin-left: 500px;
     }
 
-  }
+}
 
 
-  @media screen and (max-width: 767px){
-    .footer-col{
-      width: 50%;
-      margin-bottom: 30px;
-  }
-  }
-  @media screen and (max-width: 574px){
-    .footer-col{
-      width: 100%;
-  }
-  }
+@media screen and (max-width: 400px) {
+    .___navbar {
+
+        .___navlist {
+
+            font-size: 12px;
+
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
 
 //   media query for navbar end 
 
 //  media query grow pricing seciton start 
 
-@media screen and (max-width:800px) 
-{
+@media screen and (max-width:800px) {
 
-    .___price-grow-area{
+    .___price-grow-area {
 
         display: flex;
         justify-content: center;
-        align-items:center ;
+        align-items: center;
         flex-direction: column;
-            
-        
-        .___first-div{
+
+
+        .___first-div {
 
             display: flex;
             justify-content: center;
@@ -497,46 +515,46 @@ footer{
             // margin: 0;
             height: auto;
 
-            .___left-area{
+            .___left-area {
 
-                .___club-size{
+                .___club-size {
 
                     width: 400px;
                     padding: 20px;
 
                     display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
 
-                    p{
+                    p {
                         width: 300px;
                         text-align: center;
                     }
                 }
 
-                
+
 
             }
 
 
         }
 
-        .___right-side-area{
+        .___right-side-area {
 
             display: flex;
             justify-content: center;
             align-items: center;
             // width: 100px;
 
-            .___table-div{
+            .___table-div {
 
                 display: flex;
                 justify-content: center;
                 align-items: center;
 
-            
-                table{
+
+                table {
 
                     width: 100px;
                     display: flex;
@@ -545,39 +563,40 @@ footer{
                     flex-direction: column;
                     margin-left: 170px;
 
-                    tr{
+                    tr {
 
-                        .___td1{
+                        .___td1 {
 
                             width: 10px;
-                            
+
                         }
-    
-                        
-                        
-                        th,td{
+
+
+
+                        th,
+                        td {
                             text-align: center;
                             width: 5px;
-                          
-                            
+
+
                         }
 
 
                     }
 
-                    
+
                 }
 
             }
 
-           
+
         }
 
 
 
     }
 
-    .___sms-pricing-div{
+    .___sms-pricing-div {
 
         display: flex;
         justify-content: center;
@@ -587,8 +606,8 @@ footer{
     }
 
 }
-   
-    
+
+
 
 
 
@@ -599,17 +618,32 @@ footer{
 
 // free trail section start
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 
-    #___trial-banner{
+    #___trial-banner {
 
-        p{
+        background-size: 100% 220px;
+        padding: 60px;
+        margin-bottom: 20px;
+
+        .___button {
+            margin-top: 10px;
+
+            .___button-trial {
+                padding: 15px;
+            }
+
+
+
+        }
+
+        p {
             text-align: center;
+            font-size: 12px;
+
         }
 
 
-
-        
     }
 
 
@@ -619,42 +653,32 @@ footer{
 
 //   footer media query start
 
-    @media screen and (max-width:700px){
+@media screen and (max-width:700px) {
 
-        .___container{
+    .___container {
 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-            .___flex-row,.___contact-us{
-                padding: 20px;
-                
-            }
-
-            .___contact-us{
-               
-                margin-left: 40px;
-
-            }
+        .___flex-row,
+        .___contact-us {
+            padding: 20px;
 
         }
 
-        
+        .___contact-us {
+
+            margin-left: 40px;
+
+        }
 
     }
 
 
+
+}
+
+
 //   footer media query end
-
-
-
-
-
-
-  
-
-
-
-

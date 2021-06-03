@@ -205,6 +205,12 @@ footer p a {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .___navbar .___navlist {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-col {
     width: 50%;
@@ -240,7 +246,8 @@ footer p a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .___container .___flex-row, .___container .___contact-us {
+  .___container .___flex-row,
+  .___container .___contact-us {
     padding: 20px;
   }
   .___container .___contact-us {

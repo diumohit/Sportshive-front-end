@@ -152,7 +152,9 @@
   text-align: center;
 }
 
-.___main-div .___contact-div .___right-section .___getintouch-div .___address-div, .___main-div .___contact-div .___right-section .___getintouch-div .___phone-div, .___main-div .___contact-div .___right-section .___getintouch-div .___mail-div {
+.___main-div .___contact-div .___right-section .___getintouch-div .___address-div,
+.___main-div .___contact-div .___right-section .___getintouch-div .___phone-div,
+.___main-div .___contact-div .___right-section .___getintouch-div .___mail-div {
   background-color: white;
   margin: 10px;
   padding: 10px;
@@ -160,14 +162,24 @@
   height: 150px;
 }
 
-.___main-div .___contact-div .___right-section .___getintouch-div .___address-div .___address-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___address-div .___phone-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___address-div .___email-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___phone-div .___address-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___phone-div .___phone-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___phone-div .___email-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___mail-div .___address-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___mail-div .___phone-icon, .___main-div .___contact-div .___right-section .___getintouch-div .___mail-div .___email-icon {
+.___main-div .___contact-div .___right-section .___getintouch-div .___address-div .___address-icon,
+.___main-div .___contact-div .___right-section .___getintouch-div .___address-div .___phone-icon,
+.___main-div .___contact-div .___right-section .___getintouch-div .___address-div .___email-icon,
+.___main-div .___contact-div .___right-section .___getintouch-div .___phone-div .___address-icon,
+.___main-div .___contact-div .___right-section .___getintouch-div .___phone-div .___phone-icon,
+.___main-div .___contact-div .___right-section .___getintouch-div .___phone-div .___email-icon,
+.___main-div .___contact-div .___right-section .___getintouch-div .___mail-div .___address-icon,
+.___main-div .___contact-div .___right-section .___getintouch-div .___mail-div .___phone-icon,
+.___main-div .___contact-div .___right-section .___getintouch-div .___mail-div .___email-icon {
   width: 40px;
   height: 40px;
   -webkit-filter: brightness(0%);
           filter: brightness(0%);
 }
 
-.___main-div .___contact-div .___right-section .___getintouch-div .___address-div p, .___main-div .___contact-div .___right-section .___getintouch-div .___phone-div p, .___main-div .___contact-div .___right-section .___getintouch-div .___mail-div p {
+.___main-div .___contact-div .___right-section .___getintouch-div .___address-div p,
+.___main-div .___contact-div .___right-section .___getintouch-div .___phone-div p,
+.___main-div .___contact-div .___right-section .___getintouch-div .___mail-div p {
   text-align: center;
   padding: 5px;
 }
@@ -329,6 +341,12 @@ footer p a {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .___navbar .___navlist {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-col {
     width: 50%;
@@ -376,9 +394,31 @@ footer p a {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .___main-div .___contact-div .___left-section input, .___main-div .___contact-div .___left-section textarea {
+    width: 200px;
+  }
+  .___main-div .___contact-div .___left-section .___submit-btn {
+    width: 150px;
+    font-size: 15px;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  #___trial-banner {
+    background-size: 100% 220px;
+    padding: 60px;
+    margin-bottom: 20px;
+  }
+  #___trial-banner .___button {
+    margin-top: 10px;
+  }
+  #___trial-banner .___button .___button-trial {
+    padding: 15px;
+  }
   #___trial-banner p {
     text-align: center;
+    font-size: 12px;
   }
 }
 
@@ -398,7 +438,8 @@ footer p a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .___container .___flex-row, .___container .___contact-us {
+  .___container .___flex-row,
+  .___container .___contact-us {
     padding: 20px;
   }
   .___container .___contact-us {

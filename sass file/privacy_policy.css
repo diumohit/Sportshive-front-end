@@ -180,6 +180,86 @@ footer p a {
   color: yellow;
 }
 
+footer {
+  color: white;
+  background-color: #060808;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+footer .___container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 0 0 0;
+}
+
+footer .___container .___title {
+  color: yellow;
+}
+
+footer .___container h2 {
+  text-align: center;
+}
+
+footer .___container h2 .___logoimage {
+  width: 200px;
+  height: 70px;
+}
+
+footer .___container p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .___container ul li {
+  list-style: none;
+}
+
+footer .___container ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .___container ul li a:hover {
+  color: yellow;
+  font-weight: bolder;
+}
+
+footer .___container .___contact-us {
+  text-align: center;
+  margin-right: 60px;
+}
+
+footer .___container .___contact-us .___icon {
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+footer p a {
+  color: yellow;
+}
+
 @media screen and (max-width: 1150px) {
   .___navbar {
     -webkit-box-orient: vertical;
@@ -193,6 +273,12 @@ footer p a {
   }
   .___logoheader {
     margin-left: 500px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .___navbar .___navlist {
+    font-size: 12px;
   }
 }
 
@@ -213,11 +299,27 @@ footer p a {
   .___privacy_policy_main_area ol {
     width: 500px;
   }
-  .___privacy_policy_main_area ol li {
-    width: 300px;
-  }
   .___privacy_policy_main_area ol li h2 {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .___privacy_policy_main_area {
+    font-size: 10px;
+  }
+  .___privacy_policy_main_area ol, .___privacy_policy_main_area li {
+    font-size: 10px;
+    width: 150px;
+    margin-right: 100px;
+  }
+  .___privacy_policy_main_area h2, .___privacy_policy_main_area p {
+    font-size: 10px;
+    width: 100px;
+  }
+  .___privacy_policy_main_area ul, .___privacy_policy_main_area li {
+    font-size: 10px;
+    width: 100px;
   }
 }
 

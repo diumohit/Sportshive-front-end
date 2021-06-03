@@ -99,6 +99,7 @@ $orange:orange;
         color: $white;
         width: 820px;
         padding: 50px;
+      
 
 
         p{
@@ -241,17 +242,18 @@ footer{
   }
 
 
-  @media screen and (max-width: 767px){
-    .footer-col{
-      width: 50%;
-      margin-bottom: 30px;
+@media screen and (max-width: 400px) {
+    .___navbar{ 
+      
+    .___navlist{
+
+        font-size: 12px;
+
+    }
+
   }
-  }
-  @media screen and (max-width: 574px){
-    .footer-col{
-      width: 100%;
-  }
-  }
+}
+
 
 //   media query for navbar end 
 
@@ -273,30 +275,41 @@ footer{
 
     }
 
-    
-    
+ 
+}
+
+
+@media screen and (max-width:500px) {
+
+    .___mainarea{
+
+        background-size: 100% 600px;
+        height: 600px;
+        
+        
+
+        .___about-section{
+            width: auto;
+
+            h1{
+                font-size: 20px;
+            }
+            
+            p{
+                font-size: 13px;
+            }
+        }
+
+
+    }
+
+ 
 }
 
 // media query for main area end 
 
 
-// free trail section start
 
-@media screen and (max-width:600px){
-
-    #___trial-banner{
-
-        p{
-            text-align: center;
-        }
-
-        
-    }
-
-
-}
-
-// free trail section end 
 
 //   footer media query start
 

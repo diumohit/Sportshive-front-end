@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,8 @@
 
 // Global varibales
 $bg-color:#060808;
-$font_family:'Lato', sans-serif;
+$font_family:'Lato',
+sans-serif;
 $font_size:20px;
 $color:#ffffff;
 $yellow:yellow;
@@ -14,76 +15,77 @@ $white:white;
 $orange:orange;
 
 //  navbar area start 
-.___navbar{
+.___navbar {
 
     background-color: $bg-color;
-    color:$color;
+    color: $color;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-   
-  
 
-    .___logoheader{
 
-      width: 300px;
-      height: 80px;
-      margin-right: 500px;
-      
+
+    .___logoheader {
+
+        width: 300px;
+        height: 80px;
+        margin-right: 500px;
+
     }
 
-    .___navlist{
+    .___navlist {
 
         list-style-type: none;
         font-size: $font_size;
-        font-family:$font_family;
-        
+        font-family: $font_family;
+
     }
 
 
-    .___list-item{
+    .___list-item {
         display: inline-block;
 
-        a{
+        a {
             text-decoration: none;
             color: $color;
             padding: 10px;
             font-weight: bold;
         }
 
-        .___hover:hover{
+        .___hover:hover {
 
-            background-color:$yellow;
+            background-color: $yellow;
             border-radius: 20px;
-            color:$bg-color;
-        }
-
-        .___signhover:hover{
-            background-color:$yellow;
             color: $bg-color;
-            
         }
 
-        .___signup{
+        .___signhover:hover {
+            background-color: $yellow;
+            color: $bg-color;
+
+        }
+
+        .___signup {
             border: 3px ridge $yellow;
             color: $yellow;
         }
     }
-        
+
 }
+
 //  navbar area end
 
 // contact and support area start 
 
-.___main-div{
+.___main-div {
     font-family: $font_family;
 
-    h1{
+    h1 {
         text-align: center;
         margin-top: 40px;
     }
 
-    .___contact-div{
+    .___contact-div {
 
         background-color: $bg-color;
         color: $bg-color;
@@ -94,7 +96,7 @@ $orange:orange;
         align-items: center;
 
 
-        .___left-section{
+        .___left-section {
 
             display: flex;
             justify-content: center;
@@ -102,15 +104,15 @@ $orange:orange;
             flex-direction: column;
 
 
-            input{
+            input {
                 padding: 5px;
                 width: 350px;
                 margin: 10px;
             }
 
-           
 
-            textarea{
+
+            textarea {
 
                 resize: none;
                 padding: 5px;
@@ -119,14 +121,14 @@ $orange:orange;
 
             }
 
-            .___submit-btn{
+            .___submit-btn {
                 width: 200px;
-                
+
             }
 
         }
 
-        .___right-section{
+        .___right-section {
 
             display: flex;
             align-items: center;
@@ -134,14 +136,14 @@ $orange:orange;
             flex-direction: column;
             font-family: $font_family;
 
-            h1{
+            h1 {
                 text-align: center;
                 color: $yellow;
                 padding: 20px;
-        
+
             }
 
-            .___getintouch-div{
+            .___getintouch-div {
 
                 display: flex;
                 justify-content: center;
@@ -149,34 +151,38 @@ $orange:orange;
                 margin-bottom: 60px;
                 text-align: center;
 
-                .___address-div,.___phone-div,.___mail-div{
+                .___address-div,
+                .___phone-div,
+                .___mail-div {
                     background-color: $white;
                     margin: 10px;
                     padding: 10px;
                     width: 200px;
                     height: 150px;
-                   
-                      
-                        
-                        .___address-icon,.___phone-icon,.___email-icon{
-    
+
+
+
+                    .___address-icon,
+                    .___phone-icon,
+                    .___email-icon {
+
                         width: 40px;
                         height: 40px;
                         filter: brightness(0%);
-    
-                        
-    
-                        }
-                    
-                    p{
+
+
+
+                    }
+
+                    p {
                         text-align: center;
                         padding: 5px;
                     }
-    
+
                 }
 
-                
-            }   
+
+            }
 
         }
 
@@ -199,54 +205,54 @@ $orange:orange;
 
 
 
-    #___trial-banner{
+#___trial-banner {
 
-        background-image: url("../images/black-friday.jpg");
-        background-repeat: no-repeat;
-        background-size:100% 300px;
-        padding: 100px;
-        font-family: $font_family;
+    background-image: url("../images/black-friday.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    padding: 100px;
+    font-family: $font_family;
 
-        .___button{
+    .___button {
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .___button-trial {
+            color: $bg-color;
+            background: $yellow;
+            width: auto;
+            height: 20px;
+            padding: 25px;
             display: flex;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+            border-radius: 2px;
+            font-weight: bolder;
+            text-decoration: none;
+        }
 
-            .___button-trial{         
-                color: $bg-color;
-                background: $yellow;
-                width: auto;
-                height: 20px;
-                padding: 25px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 2px;
-                font-weight: bolder;
-                text-decoration: none;
-            }
+        .___button-trial:hover {
 
-            .___button-trial:hover{
-
-            background-color:$orange;
+            background-color: $orange;
             transition: 1s;
-
-            }
 
         }
 
-        .___trial-banner-p{
-        
-            color: $white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 15px;
-            font-size: larger;
-    
-        }        
     }
+
+    .___trial-banner-p {
+
+        color: $white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        font-size: larger;
+
+    }
+}
 
 
 // Free trial area end
@@ -255,13 +261,13 @@ $orange:orange;
 
 // footer area start
 
-footer{
+footer {
     color: $white;
     background-color: $bg-color;
     font-family: $font_family;
     font-size: 15px;
 
-    .___container{
+    .___container {
         display: flex;
         // flex-wrap: wrap;
         justify-content: space-around;
@@ -269,81 +275,82 @@ footer{
 
         // align-items:center;
 
-        .___title{
-            color:$yellow;
+        .___title {
+            color: $yellow;
         }
 
-      
 
-        h2{
+
+        h2 {
 
             text-align: center;
 
-            .___logoimage{
-             
-            width: 200px;
-            height: 70px;
-            
+            .___logoimage {
+
+                width: 200px;
+                height: 70px;
+
             }
         }
 
-        p{
-            
+        p {
+
             display: flex;
             justify-content: center;
             align-items: center;
-          
+
         }
 
 
 
-       ul{
-           li{
-               list-style: none;
+        ul {
+            li {
+                list-style: none;
 
-               a{
-                   text-decoration: none;
-                   color: $white;
-                   
-               }
+                a {
+                    text-decoration: none;
+                    color: $white;
 
-               a:hover{
+                }
 
-                color:$yellow;
-                font-weight: bolder;
-               }
+                a:hover {
 
-           }
-       }
+                    color: $yellow;
+                    font-weight: bolder;
+                }
 
-
-    .___contact-us{
-        text-align: center;
-        margin-right: 60px;
-
-        .___icon{
-            
-            display: inline;
-            align-items: center;
-            justify-content: center;
-            padding: 5px;
+            }
         }
-    }
+
+
+        .___contact-us {
+            text-align: center;
+            margin-right: 60px;
+
+            .___icon {
+
+                display: inline;
+                align-items: center;
+                justify-content: center;
+                padding: 5px;
+            }
+        }
 
     }
 
 
-    p{
+    p {
         text-align: center;
         padding-bottom: 30px;
 
-        a{
+        a {
             color: $yellow;
-           
+
         }
-             
-    }    
+
+    }
 }
+
 // footer area end
 
 // --------------------------------------------
@@ -354,31 +361,44 @@ footer{
 // media query for navbar start
 
 @media screen and (max-width: 1150px) {
-    .___navbar{ 
-      flex-direction: column;
-      justify-content: center;
-      height: 160px;
-      
-    } 
+    .___navbar {
+        flex-direction: column;
+        justify-content: center;
+        height: 160px;
 
-    .___logoheader{
+    }
+
+    .___logoheader {
         margin-left: 500px;
     }
 
+}
+
+@media screen and (max-width: 400px) {
+    .___navbar{ 
+      
+    .___navlist{
+
+        font-size: 12px;
+
+    }
+
   }
+}
 
 
-  @media screen and (max-width: 767px){
-    .footer-col{
-      width: 50%;
-      margin-bottom: 30px;
-  }
-  }
-  @media screen and (max-width: 574px){
-    .footer-col{
-      width: 100%;
-  }
-  }
+@media screen and (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
 
 //   media query for navbar end 
 
@@ -388,9 +408,9 @@ footer{
 
 @media screen and (max-width:1000px) {
 
-    .___main-div{
+    .___main-div {
 
-        .___contact-div{
+        .___contact-div {
 
             display: flex;
             justify-content: center;
@@ -398,18 +418,41 @@ footer{
             flex-direction: column;
             height: auto;
 
-            .___getintouch-div{
+            .___getintouch-div {
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
 
-                
+
             }
         }
 
     }
+
+}
+
+@media screen and (max-width:500px) {
+
+   .___main-div{
+
+    .___contact-div{
+
+        .___left-section{
+
+           input,textarea{
+               width: 200px;
+           }
+
+           .___submit-btn{
+               width: 150px;
+               font-size: 15px;
+           }
+           
+        }
+    }
+   }
     
 }
 
@@ -424,15 +467,32 @@ footer{
 
 // free trail section start
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 
-    #___trial-banner{
+    #___trial-banner {
 
-        p{
-            text-align: center;
+        background-size: 100% 220px;
+        padding: 60px;
+        margin-bottom: 20px;
+
+        .___button {
+            margin-top: 10px;
+
+            .___button-trial {
+                padding: 15px;
+            }
+
+
+
         }
 
-        
+        p {
+            text-align: center;
+            font-size: 12px;
+
+        }
+
+
     }
 
 
@@ -442,42 +502,32 @@ footer{
 
 //   footer media query start
 
-    @media screen and (max-width:700px){
+@media screen and (max-width:700px) {
 
-        .___container{
+    .___container {
 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-            .___flex-row,.___contact-us{
-                padding: 20px;
-                
-            }
-
-            .___contact-us{
-               
-                margin-left: 40px;
-
-            }
+        .___flex-row,
+        .___contact-us {
+            padding: 20px;
 
         }
 
-        
+        .___contact-us {
+
+            margin-left: 40px;
+
+        }
 
     }
 
 
+
+}
+
+
 //   footer media query end
-
-
-
-
-
-
-  
-
-
-
-

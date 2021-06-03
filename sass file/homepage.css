@@ -58,7 +58,7 @@
 }
 
 .___banner {
-  background-image: url("../images/cover image fixed 2.png");
+  background-image: url("../images/cover image fixed 2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 550px;
   height: 550px;
@@ -778,6 +778,12 @@ footer p a {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .___navbar .___navlist {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-col {
     width: 50%;
@@ -895,7 +901,8 @@ footer p a {
     margin-top: 120px;
     margin-bottom: 100px;
   }
-  .___shape-container .___shape1, .___shape-container .___shape2 {
+  .___shape-container .___shape1,
+  .___shape-container .___shape2 {
     display: none;
   }
   .___shape-container .___left-side-text1,

@@ -180,7 +180,8 @@
   border-spacing: 0 15px;
 }
 
-.___price-grow-area .___first-div .___right-side-area .___table-div table tr th, .___price-grow-area .___first-div .___right-side-area .___table-div table tr td {
+.___price-grow-area .___first-div .___right-side-area .___table-div table tr th,
+.___price-grow-area .___first-div .___right-side-area .___table-div table tr td {
   text-align: center;
   padding: 10px;
   background-color: white;
@@ -396,6 +397,12 @@ footer p a {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .___navbar .___navlist {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-col {
     width: 50%;
@@ -505,7 +512,8 @@ footer p a {
   .___price-grow-area .___right-side-area .___table-div table tr .___td1 {
     width: 10px;
   }
-  .___price-grow-area .___right-side-area .___table-div table tr th, .___price-grow-area .___right-side-area .___table-div table tr td {
+  .___price-grow-area .___right-side-area .___table-div table tr th,
+  .___price-grow-area .___right-side-area .___table-div table tr td {
     text-align: center;
     width: 5px;
   }
@@ -528,8 +536,20 @@ footer p a {
 }
 
 @media screen and (max-width: 600px) {
+  #___trial-banner {
+    background-size: 100% 220px;
+    padding: 60px;
+    margin-bottom: 20px;
+  }
+  #___trial-banner .___button {
+    margin-top: 10px;
+  }
+  #___trial-banner .___button .___button-trial {
+    padding: 15px;
+  }
   #___trial-banner p {
     text-align: center;
+    font-size: 12px;
   }
 }
 
@@ -549,7 +569,8 @@ footer p a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .___container .___flex-row, .___container .___contact-us {
+  .___container .___flex-row,
+  .___container .___contact-us {
     padding: 20px;
   }
   .___container .___contact-us {

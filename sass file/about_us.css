@@ -184,16 +184,9 @@ footer p a {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-  }
-}
-
-@media screen and (max-width: 574px) {
-  .footer-col {
-    width: 100%;
+@media screen and (max-width: 400px) {
+  .___navbar .___navlist {
+    font-size: 12px;
   }
 }
 
@@ -207,9 +200,19 @@ footer p a {
   }
 }
 
-@media screen and (max-width: 600px) {
-  #___trial-banner p {
-    text-align: center;
+@media screen and (max-width: 500px) {
+  .___mainarea {
+    background-size: 100% 600px;
+    height: 600px;
+  }
+  .___mainarea .___about-section {
+    width: auto;
+  }
+  .___mainarea .___about-section h1 {
+    font-size: 20px;
+  }
+  .___mainarea .___about-section p {
+    font-size: 13px;
   }
 }
 
