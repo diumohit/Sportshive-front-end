@@ -887,14 +887,16 @@ footer {
 
 // media query for banner or hero area
 
-// @media screen and (max-width:600px){
 
-//     .___banner{
-//     background-size: 100% 700px;
-//     height: 700px;
+@media screen and (min-width:1400px){
 
-//     }
-// }
+    .___banner{
+    background-size: 100% 700px;
+    height: 700px;
+
+    }
+}
+
 
 @media screen and (max-width:600px) {
 
@@ -936,6 +938,8 @@ footer {
     }
 
 }
+
+
 
 // media query for join thousand of clubs start
 

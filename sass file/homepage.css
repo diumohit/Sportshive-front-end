@@ -797,6 +797,13 @@ footer p a {
   }
 }
 
+@media screen and (min-width: 1400px) {
+  .___banner {
+    background-size: 100% 700px;
+    height: 700px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .___banner {
     background-image: url("../images/sportshivebanner.jpg");
