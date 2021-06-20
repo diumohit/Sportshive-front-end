@@ -58,7 +58,7 @@
 }
 
 .___banner {
-  background-image: url("../images/cover image fixed 2.jpg");
+  background-image: url("../images/white hd 3.JPG");
   background-repeat: no-repeat;
   background-size: 100% 550px;
   height: 550px;
@@ -80,21 +80,21 @@
 }
 
 .___banner .___banner-header1 {
-  color: white;
+  color: #060808;
   font-size: 80px;
-  text-shadow: 15px 10px 30px white;
+  text-shadow: 5px 10px 20px #060808;
 }
 
 .___banner .___banner-header2 {
   color: yellow;
   font-size: 70px;
-  text-shadow: 15px 10px 30px yellow;
+  text-shadow: 2px 5px 20px #060808;
 }
 
 .___banner p {
-  color: white;
+  color: #060808;
   font-size: 25px;
-  text-shadow: 15px 10px 20px yellow;
+  text-shadow: 5px 10px 15px #060808;
 }
 
 .___banner .___banner-button .___banner-button-link {
@@ -115,8 +115,8 @@
   border-radius: 2px;
   font-weight: bolder;
   margin-top: 20px;
-  -webkit-box-shadow: 15px 20px 50px #060808;
-          box-shadow: 15px 20px 50px #060808;
+  -webkit-box-shadow: 5px 10px 30px #060808;
+          box-shadow: 5px 10px 30px #060808;
   text-decoration: none;
 }
 
@@ -411,7 +411,7 @@
   text-align: left;
   width: 400px;
   color: white;
-  text-shadow: 5px 10px 20px black;
+  text-shadow: 5px 10px 10px black;
   font-weight: bolder;
   padding: 5px;
 }
@@ -458,7 +458,7 @@
   text-align: left;
   width: 400px;
   color: white;
-  text-shadow: 5px 10px 20px black;
+  text-shadow: 5px 10px 10px black;
   font-weight: bolder;
   padding: 5px;
 }
@@ -806,7 +806,7 @@ footer p a {
 
 @media screen and (max-width: 600px) {
   .___banner {
-    background-image: url("../images/sportshivebanner.jpg");
+    background-image: url("../images/small screen bg.jpg");
     background-size: 100% 420px;
     height: 420px;
     display: -webkit-box;
@@ -831,6 +831,10 @@ footer p a {
   .___banner p {
     text-align: center;
     font-size: 20px;
+    color: #060808;
+    text-shadow: 5px 10px 20px yellow;
+    background-color: rgba(255, 255, 255, 0.356);
+    font-weight: bold;
   }
   .___banner .___banner-button .___banner-button-link {
     width: 200px;

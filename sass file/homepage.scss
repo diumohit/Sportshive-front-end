@@ -78,7 +78,7 @@ $orange:orange;
 
 .___banner {
 
-    background-image: url("../images/cover\ image\ fixed\ 2.jpg");
+    background-image: url("../images/white\ hd\ 3.JPG");
     background-repeat: no-repeat;
     background-size: 100% 550px;
     height: 550px;
@@ -92,9 +92,10 @@ $orange:orange;
 
     .___banner-header1 {
 
-        color: $white;
+        color: $bg-color;
         font-size: 80px;
-        text-shadow: 15px 10px 30px $white;
+        // text-shadow: 15px 10px 30px $bg-color;
+        text-shadow: 5px 10px 20px $bg-color;
 
     }
 
@@ -102,14 +103,16 @@ $orange:orange;
 
         color: $yellow;
         font-size: 70px;
-        text-shadow: 15px 10px 30px $yellow;
+        // text-shadow: 15px 10px 30px $bg-color;
+        text-shadow: 2px 5px 20px $bg-color;
 
     }
 
     p {
-        color: $white;
+        color: $bg-color;
         font-size: 25px;
-        text-shadow: 15px 10px 20px $yellow;
+        // text-shadow: 15px 10px 20px $bg-color;
+        text-shadow: 5px 10px 15px $bg-color;
 
 
     }
@@ -131,7 +134,7 @@ $orange:orange;
             border-radius: 2px;
             font-weight: bolder;
             margin-top: 20px;
-            box-shadow: 15px 20px 50px $bg-color;
+            box-shadow: 5px 10px 30px $bg-color;
             text-decoration: none;
 
 
@@ -396,6 +399,7 @@ $orange:orange;
     font-family: $font_family;
 
 
+
     // .shape {
     //     background: blue;
     //     height: 300px;
@@ -411,10 +415,6 @@ $orange:orange;
 
 
 
-
-
-
-
     .___right-side-text1,
     .___left-side-text1 {
 
@@ -423,6 +423,7 @@ $orange:orange;
         align-items: left;
         flex-direction: column;
         padding: 110px;
+        
 
 
 
@@ -443,7 +444,7 @@ $orange:orange;
             text-align: left;
             width: 400px;
             color: white;
-            text-shadow: 5px 10px 20px black;
+            text-shadow: 5px 10px 10px black;
             font-weight: bolder;
             padding: 5px;
 
@@ -489,7 +490,7 @@ $orange:orange;
             text-align: left;
             width: 400px;
             color: white;
-            text-shadow: 5px 10px 20px black;
+            text-shadow: 5px 10px 10px black;
             font-weight: bolder;
             padding: 5px;
 
@@ -901,7 +902,7 @@ footer {
 @media screen and (max-width:600px) {
 
     .___banner {
-        background-image: url("../images/sportshivebanner.jpg");
+        background-image: url("../images/small\ screen\ bg.jpg");
         background-size: 100% 420px;
         height: 420px;
         display: flex;
@@ -920,6 +921,11 @@ footer {
         p {
             text-align: center;
             font-size: 20px;
+            color: $bg-color;
+            text-shadow: 5px 10px 20px $yellow;
+            background-color:rgba(255, 255, 255, 0.356);
+            font-weight: bold;
+            
         }
 
         .___banner-button {
@@ -927,6 +933,7 @@ footer {
             .___banner-button-link {
                 width: 200px;
                 padding: 20px;
+                
 
             }
         }
