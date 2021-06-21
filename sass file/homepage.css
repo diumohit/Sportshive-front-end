@@ -82,19 +82,16 @@
 .___banner .___banner-header1 {
   color: #060808;
   font-size: 80px;
-  text-shadow: 5px 10px 20px #060808;
 }
 
 .___banner .___banner-header2 {
   color: yellow;
   font-size: 70px;
-  text-shadow: 2px 5px 20px #060808;
 }
 
 .___banner p {
   color: #060808;
   font-size: 25px;
-  text-shadow: 5px 10px 15px #060808;
 }
 
 .___banner .___banner-button .___banner-button-link {
@@ -115,8 +112,8 @@
   border-radius: 2px;
   font-weight: bolder;
   margin-top: 20px;
-  -webkit-box-shadow: 5px 10px 30px #060808;
-          box-shadow: 5px 10px 30px #060808;
+  -webkit-box-shadow: 2px 5px 5px #060808;
+          box-shadow: 2px 5px 5px #060808;
   text-decoration: none;
 }
 
